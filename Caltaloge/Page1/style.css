@@ -48,8 +48,8 @@
 }
 
 .box {
-    /* width: 480px; */
-    width: 730px;
+    width: 480px;
+    /* width: 730px; */
     height: 380px;
     background: #9b9a9a;
     display: flex;
