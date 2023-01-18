@@ -69,3 +69,25 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20pt;
+}
+
+.banner .banneer-text {
+    width: 350pt;
+}
+
+.banner button {
+    background: #795548;
+    padding: 10px 20px;
+    border: 1px solid #34251f;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 20px;
+}
