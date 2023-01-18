@@ -126,8 +126,7 @@ footer .footer-flex {
     flex-direction: column;
     width: 100%;
     height: 333px;
-    /* margin: auto;
-    width: 207pt; */
+   
     opacity: 0;
 }
 
