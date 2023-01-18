@@ -112,7 +112,23 @@ footer .footer-flex {
     color: #fff;
     font-size: 15px;
 }
-
+.footer-copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer-copy-icon a i{
+    color: #fff;
+    padding-right: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer-copy-text{
+color: #fff;
+font-size: 13px;
+font-weight: 500;
+}
 
 /* Box css start */
 
