@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/Caltaloge/Page1/style.css">
     <link rel="stylesheet" href="/Caltaloge/Page1/slider.css">
     <link rel="stylesheet" href="/Caltaloge/Page1/glider.css">
+    <link rel="stylesheet" href="/Caltaloge/Header.css">
     <title>Document</title>
 </head>
 
@@ -29,10 +30,11 @@
             </ul>
         </nav>
     </div>
-    <div style="display: flex; flex-direction: row;align-items: center;justify-content: space-evenly;padding: 20pt;">
-        <div style="width: 350pt;">
+    <div class="banner">
+        <div class="banner-text" style="">
             <h1>Quality Craftsmanship</h1>
-            <p>Small-batch production, Japanese joinery, and upcycled, eco-friendly materials create a bed built to last and move. Each piece is inherently unique, featuring the natural imperfections of handcrafted, repurposed wood. LEARN MORE</p>
+            <p>Small-batch production, Japanese joinery, and upcycled, eco-friendly materials create a bed built to last and move. Each piece is inherently unique, featuring the natural imperfections of handcrafted, repurposed wood. </p>
+            <button>LEARN MORE</button>
         </div>
         <div>
             <img src="https://i.pinimg.com/564x/ec/fa/4b/ecfa4ba3252ba0f9d26e856091c33066.jpg" height="540px" alt="leather">
@@ -60,7 +62,7 @@
         </div>
 
     </div>
-
+    <!-- Slider Start -->
     <section class="p-slider">
         <!----heading------->
         <h3 class="perfect-burger-heading">Choose One Of our Perfect Buger</h3>
@@ -264,6 +266,61 @@
             <!-- <div role="tablist" class="dots"></div> -->
         </div>
     </section>
+    <!-- Slider End -->
+    <!-- Footer Start -->
+    <footer>
+        <div class="footer-flex">
+            <div class="footer-htext">
+                <h2>Be Furture Ready</h2>
+                <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit.</p>
+                <form action="">
+                    <input type="text" name="email" placeholder="Email">
+                </form>
+            </div>
+            <div class="footer-text">
+                <h1>About</h1>
+                <ul>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Our Team</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-text">
+                <h1>Resource</h1>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">NewsLetter</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-text">
+                <h1>Contact</h1>
+
+                <ul>
+                    <li><a href="#"><i class="fa fa-phone " style="font-size: 22px;"></i> +92 348 111 1111</a></li>
+                    <li>
+                        <a href="#"> <i class="fa fa-phone " style="font-size: 22px;"></i>Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="fa fa-phone " style="font-size: 22px;"></i>Our Team</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+    </footer>
+    <!-- Footer End -->
+
+
+
+
+
+
     <script src="/Caltaloge/Page1/glider.min.js"></script>
     <script>
         new Glider(document.querySelector('.glider'), {
