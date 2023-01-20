@@ -132,8 +132,9 @@
 
 .box-img {
     background-color: #000;
+    flex: 1 1 auto;
     height: 380pt;
-    flex: 1 1 380pt;
+    /* flex: 1 1 380pt; */
 }
 
 .banner {
