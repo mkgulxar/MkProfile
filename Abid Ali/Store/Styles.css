@@ -13,19 +13,53 @@
     display: flex;
 }
 
-.ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.top-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-li {
-    float: right;
+nav a {
+    margin-left: 10px;
 }
 
-li a {
+.flex-Container01 {
+    display: flex;
+    align-items: stretch;
+}
+
+.flex-container section {
+    margin: 10px;
+}
+
+.imagecontainer01 :hover.image {
+    opacity: 0.3;
+}
+
+.image01 {
+    opacity: 1;
     display: block;
-    padding: 8px;
-    text-decoration: none;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.imagetext01 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.imagetext01 :hover .imagetext01 {
+    opacity: 1;
+}
+
+.text01 {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
 }
