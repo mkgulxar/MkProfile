@@ -1,0 +1,31 @@
+.flex-Container {
+    display: flex;
+    align-items: stretch;
+}
+
+.flex-Container div {
+    margin: 10px;
+    text-align: center;
+    line-break: 75px;
+}
+
+.header {
+    display: flex;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
