@@ -106,7 +106,6 @@
 
 .text:hover {
     opacity: 1;
-    transition: 0.9s ease;
 }
 
 .text h1 {
@@ -124,7 +123,7 @@
 .opacity {
     background-color: rgba(219, 255, 135, 0.8);
     height: 0;
-    transition: 0.9s ease-in-out;
+    transition: 0.5s ease;
 }
 
 .opacity:hover {
@@ -175,3 +174,20 @@
         padding-bottom: 20px;
     }
 }
+
+
+/* @media(max-width:900px) {
+    .list ul {
+        display: grid;
+        position: absolute;
+        background: #404040;
+        width: 100%;
+        top: 75px;
+        left: 0;
+        transform: translateY(-156%);
+        z-index: -1;
+        transition: .6s;
+    }
+
+
+} */
