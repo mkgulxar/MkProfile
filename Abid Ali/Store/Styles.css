@@ -59,3 +59,25 @@ nav a {
 .text01 {
     text-align: center;
 }
+
+.flex-Container03 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-Container03 section03 {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-item-left {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    padding: 10px;
+    flex: 50%;
+}
