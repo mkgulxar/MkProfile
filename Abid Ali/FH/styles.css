@@ -1,0 +1,52 @@
+.flex-container {
+    display: flex;
+}
+
+.logo {
+    width: 80px;
+    height: 60px;
+}
+
+.logocontainer {
+    width: 100%;
+    text-align: center;
+}
+
+.flex-container01 {
+    display: flex;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 13px;
+    font-family: poppins;
+    width: 500;
+    line-height: 19.5px;
+}
+
+.flex-container03 {
+    display: flex;
+}
+
+.bannercontainer {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.heading01 {
+    font-family: poppins;
+    font-size: 70px;
+    font-weight: 600;
+}
