@@ -162,3 +162,25 @@ nav a {
     cursor: pointer;
     font-family: poppins;
 }
+
+.box {
+    width: 370pt;
+    height: 518pt;
+    background: black;
+}
+
+.box-2 {
+    width: 370pt;
+    height: 518pt;
+    background: rgb(211, 15, 15);
+}
+
+.box:hover {
+    width: 693px;
+    transition: 0.8 ease;
+}
+
+.box-2:hover {
+    width: 693px;
+    transition: 0.8 ease;
+}
