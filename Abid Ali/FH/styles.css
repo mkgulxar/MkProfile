@@ -119,4 +119,21 @@ nav a {
 
 .text01 {
     text-align: center;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.text02 {
+    text-align: center;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.text03 {
+    text-align: center;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 13px;
 }
