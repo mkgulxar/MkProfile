@@ -45,7 +45,8 @@ nav a {
 }
 
 .flex-banner {
-    width: 95%;
+    width: 100%;
+    height: 496px;
     margin: auto;
 }
 
@@ -60,9 +61,13 @@ nav a {
 .bannercontainer .bannertext,
 .bannercontainer .bannerimage {
     padding: 10px;
-    width: 50%;
-    margin: auto;
 }
+
+.heading01 {
+    margin-left: 5%;
+}
+
+.banner01 {}
 
 .heading01 h1 {
     font-size: 80px;
@@ -81,13 +86,12 @@ nav a {
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 10px;
-    width: 55%;
+    width: 88%;
 }
 
 .banner01 img {
-    width: 658px;
+    width: 1auto;
     height: 496px;
-    max-width: 100%;
 }
 
 
