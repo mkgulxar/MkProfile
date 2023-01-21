@@ -53,8 +53,32 @@ nav a {
     align-items: center;
 }
 
-.heading01 {
-    font-family: poppins;
-    font-size: 70px;
+.bannercontainer .bannertext,
+.bannercontainer .bannerimage {
+    padding: 10px;
+}
+
+.heading01 h1 {
+    font-size: 80px;
     font-weight: 600;
+}
+
+.heading01 h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.banner01 img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Media Query */
+
+@media (max-width:900px) {
+    .bannercontainer {
+        flex-wrap: wrap;
+    }
 }
