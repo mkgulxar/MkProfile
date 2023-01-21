@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
 .flex-container {
     display: flex;
 }
@@ -43,6 +50,7 @@ nav a {
     display: flex;
     margin-top: 10px;
     justify-content: center;
+    align-items: center;
 }
 
 .heading01 {
