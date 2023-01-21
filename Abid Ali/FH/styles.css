@@ -21,6 +21,9 @@
 
 .flex-container01 {
     display: flex;
+    /* position: absolute;
+    top: 5%;
+    right: 45%; */
 }
 
 .nav {
@@ -36,31 +39,35 @@ nav a {
     list-style-type: none;
     color: black;
     font-size: 13px;
-    font-family: poppins;
+    font-family: "Poppins";
     width: 500;
     line-height: 19.5px;
 }
 
-.flex-container03 {
-    display: flex;
+.flex-banner {
+    width: 95%;
+    margin: auto;
 }
 
 .bannercontainer {
-    width: 100%;
     display: flex;
     margin-top: 10px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    height: 496px;
 }
 
 .bannercontainer .bannertext,
 .bannercontainer .bannerimage {
     padding: 10px;
+    width: 50%;
+    margin: auto;
 }
 
 .heading01 h1 {
     font-size: 80px;
     font-weight: 600;
+    line-height: 1;
 }
 
 .heading01 h2 {
@@ -69,9 +76,18 @@ nav a {
     margin-bottom: 10px;
 }
 
+.heading01 p {
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 55%;
+}
+
 .banner01 img {
-    width: 100%;
-    height: auto;
+    width: 658px;
+    height: 496px;
+    max-width: 100%;
 }
 
 
