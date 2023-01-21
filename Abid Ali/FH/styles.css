@@ -151,6 +151,7 @@ nav a {
     border-radius: 27px;
     width: 241px;
     height: 47px;
+    box-shadow: 0px 14px 28px rgba(156, 214, 255, 0.67);
 }
 
 .button {
