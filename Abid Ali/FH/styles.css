@@ -91,10 +91,11 @@ nav a {
     width: 88%;
 }
 
-.bannerimage {
+
+/* .bannerimage {
     height: auto;
     width: 500px;
-}
+} */
 
 .bannerimage img {
     width: 100%;
@@ -111,13 +112,13 @@ nav a {
 }
 
 .flex-Container02 {
-    display: flex;
-}
-
-.flex-Container02 {
     width: 100%;
     margin: 10px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .text01 {
