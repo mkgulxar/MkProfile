@@ -137,3 +137,23 @@ nav a {
     font-weight: 300;
     font-size: 13px;
 }
+
+.flex-Container03 {
+    display: flex;
+}
+
+.button1 {
+    background-color: #6DC2FF;
+    border: 2px solid #58AAE5;
+    border-radius: 27px;
+    width: 241px;
+    height: 47px;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: poppins;
+}
