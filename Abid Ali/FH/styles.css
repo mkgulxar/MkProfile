@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins";
+    overflow-x: hidden;
 }
 
 .flex-container {
@@ -10,8 +11,9 @@
 }
 
 .logo {
-    width: 80px;
-    height: 60px;
+    width: 90pt;
+    height: auto;
+    cursor: pointer;
 }
 
 .logocontainer {
@@ -48,6 +50,7 @@ nav a {
     width: 100%;
     height: 496px;
     margin: auto;
+    overflow: hidden;
 }
 
 .bannercontainer {
@@ -56,6 +59,7 @@ nav a {
     justify-content: space-evenly;
     align-items: center;
     height: 496px;
+    overflow: hidden;
 }
 
 
@@ -75,6 +79,7 @@ nav a {
     font-size: 5vw;
     font-weight: 600;
     line-height: 1;
+    overflow: hidden;
 }
 
 .heading01 h2 {
@@ -108,6 +113,10 @@ nav a {
 @media (max-width:900px) {
     .bannercontainer {
         flex-wrap: wrap;
+        height: auto;
+    }
+    .flex-banner {
+        height: auto;
     }
 }
 
@@ -140,6 +149,7 @@ nav a {
     font-family: poppins;
     font-weight: 300;
     font-size: 13px;
+    width: 40%;
 }
 
 .flex-Container03 {
@@ -150,9 +160,11 @@ nav a {
     background-color: #6DC2FF;
     border: 2px solid #58AAE5;
     border-radius: 27px;
-    width: 241px;
-    height: 47px;
-    box-shadow: 0px 14px 28px rgba(156, 214, 255, 0.67);
+    width: 195px;
+    height: 37px;
+    margin: 30px;
+    margin-top: 40pt;
+    filter: drop-shadow(20px 10px 10px rgba(156, 214, 255, 0.7));
 }
 
 .button {
@@ -163,24 +175,87 @@ nav a {
     font-family: poppins;
 }
 
+.flex-Container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    padding: 10pt;
+}
+
+.Container .text h2 {
+    font-size: 25pt;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 3pt;
+}
+
+.Container .text p {
+    font-size: 10pt;
+    font-weight: 300;
+    padding: 3pt;
+}
+
+
+/* .box-image {
+    background: url('https://i.pinimg.com/564x/7f/b4/9e/7fb49ee560a887ccdd997dabe7fdf036.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 290pt;
+    height: 272pt;
+} */
+
 .box {
-    width: 370pt;
-    height: 518pt;
-    background: black;
+    width: 50%;
+    height: 272pt;
+    background: #000;
+    transition: 0.8s ease;
 }
 
 .box-2 {
-    width: 370pt;
-    height: 518pt;
+    width: 50%;
+    height: 272pt;
     background: rgb(211, 15, 15);
+    transition: 0.8s ease;
 }
 
 .box:hover {
-    width: 693px;
-    transition: 0.8 ease;
+    width: 150%;
 }
 
 .box-2:hover {
-    width: 693px;
-    transition: 0.8 ease;
+    width: 150%;
+}
+
+.box-image {
+    overflow: hidden;
+    flex: 1;
+    height: 272px;
+    transition: 1s;
+}
+
+.box-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+
+/* .box-image img {
+    width: 25vw;
+    object-fit: cover;
+    height: 272pt;
+    transition: 0.8s ease;
+}
+
+.box-image img:hover {
+    width: 40vw;
+} */
+
+.box-image:hover {
+    flex: 4;
 }
