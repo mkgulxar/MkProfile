@@ -160,7 +160,7 @@ nav a {
     background-color: #6DC2FF;
     border: 2px solid #58AAE5;
     border-radius: 27px;
-    width: 195px;
+    width: 195pt;
     height: 37px;
     margin: 30px;
     margin-top: 40pt;
@@ -180,6 +180,7 @@ nav a {
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 414pt;
 }
 
 .text {
@@ -211,14 +212,14 @@ nav a {
 
 .box {
     width: 50%;
-    height: 272pt;
+    height: 414pt;
     background: #000;
     transition: 0.8s ease;
 }
 
 .box-2 {
     width: 50%;
-    height: 272pt;
+    height: 414pt;
     background: rgb(211, 15, 15);
     transition: 0.8s ease;
 }
@@ -234,14 +235,14 @@ nav a {
 .box-image {
     overflow: hidden;
     flex: 1;
-    height: 272px;
+    height: 414pt;
     transition: 1s;
 }
 
 .box-image img {
     width: 100%;
     object-fit: cover;
-    height: 300px;
+    height: 414pt;
 }
 
 
