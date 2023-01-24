@@ -372,26 +372,29 @@ nav a {
     width: 71%;
 }
 
-input[type=text] {
-    padding: 12px;
+.container input {
+    padding: 10px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid rgb(49, 49, 49);
     box-sizing: border-box;
-    font-size: 10pt;
-    border-radius: 15px;
+    font-size: 17px;
+    border-radius: 11px;
     width: 100%;
+    height: 47px;
+    outline: none;
 }
 
 .button3 {
     border: none;
     color: rgb(2, 2, 2);
     text-align: center;
-    font-size: 14px;
+    font-size: 17px;
     cursor: pointer;
-    width: 100px;
-    padding: 12px;
-    border-radius: 15px;
+    width: 118px;
+    /* padding: 12px; */
+    height: 47px;
+    border-radius: 11px;
 }
 
 .flex-Container06 {
