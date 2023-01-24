@@ -1,0 +1,9 @@
+.flex-Container {
+    display: flex;
+}
+
+.flex-Container div {
+    width: 100%;
+}
+
+.section1 {}
