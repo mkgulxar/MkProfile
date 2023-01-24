@@ -201,14 +201,6 @@ nav a {
     transition: 0.8s ease;
 }
 
-.box:hover {
-    width: 150%;
-}
-
-.box-2:hover {
-    width: 150%;
-}
-
 .box-image {
     overflow: hidden;
     flex: 1;
@@ -219,7 +211,7 @@ nav a {
 .box-image img {
     width: 100%;
     object-fit: cover;
-    height: 414pt;
+    height: 400pt;
 }
 
 .box-image:hover {
