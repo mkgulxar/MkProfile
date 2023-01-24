@@ -200,22 +200,63 @@ nav a {
     transition: 0.8s ease;
 }
 
+
+/*--------Box Banner Start Css---------- */
+
+.flex-Container-3 {
+    display: flex;
+    width: 100%;
+}
+
 .box-image {
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     flex: 1;
     height: 414pt;
+    width: 100%;
     transition: 1s;
 }
 
 .box-image img {
     width: 100%;
     object-fit: cover;
-    height: 400pt;
+    height: 414pt;
 }
 
 .box-image:hover {
-    flex: 4;
+    flex: 3;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+
+/*--------Box Banner End Css---------- */
 
 .flex-Container04 {
     display: flex;
