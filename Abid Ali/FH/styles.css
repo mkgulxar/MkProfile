@@ -422,7 +422,7 @@ input[type=text] {
     height: 45pt;
 }
 
-.footertext {
+.footertext p {
     width: 25%;
     text-align: center;
     display: flex;
@@ -431,4 +431,6 @@ input[type=text] {
     align-items: center;
     margin: auto;
     font-family: poppins;
+    height: 100%;
+    font-size: 12px;
 }
