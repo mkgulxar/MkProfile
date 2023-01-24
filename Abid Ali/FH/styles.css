@@ -140,10 +140,15 @@ nav a {
 
 .text03 {
     text-align: center;
+}
+
+.text03 p {
+    text-align: center;
     font-family: poppins;
     font-weight: 300;
     font-size: 13px;
-    width: 40%;
+    width: 64%;
+    margin: auto;
 }
 
 .flex-Container03 {
