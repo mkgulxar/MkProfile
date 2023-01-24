@@ -364,9 +364,10 @@ nav a {
     border: 1px solid rgb(49, 49, 49);
     box-sizing: border-box;
     font-size: 10pt;
-    border-radius: 11px;
+    border-radius: 11pt;
     width: 100%;
     font-size: 17px;
+    height: 30pt;
 }
 
 .button3 {
