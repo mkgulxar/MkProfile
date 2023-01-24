@@ -433,6 +433,7 @@ input[type=text] {
     margin: auto;
     font-family: poppins;
     height: 100%;
+    color: #fff;
     overflow: hidden;
     font-size: 12px;
 }
