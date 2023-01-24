@@ -412,15 +412,16 @@ input[type=text] {
 
 .flex-containerfooter div {
     width: 100%;
+    background-color: #222222;
 }
 
-.footer {
+
+/* .footer {
     color: white;
     text-align: center;
     justify-content: center;
-    background-color: #222222;
     height: 45pt;
-}
+} */
 
 .footertext p {
     width: 25%;
