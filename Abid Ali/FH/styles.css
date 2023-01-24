@@ -456,16 +456,10 @@ nav a {
     }
 }
 
-
-/* Media Query */
-
 @media (max-width:1052px) {
     .flex-container06 div {
         flex-wrap: wrap;
     }
-    /* form {
-        flex-wrap: wrap;
-    } */
     .flex-container06 .flex-container-text h1 {
         text-align: center;
     }
