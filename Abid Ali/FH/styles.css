@@ -214,7 +214,7 @@ nav a {
     justify-content: center;
     position: relative;
     flex: 1;
-    height: 414pt;
+    height: 335pt;
     width: 100%;
     transition: 1s;
 }
@@ -222,7 +222,7 @@ nav a {
 .box-image img {
     width: 100%;
     object-fit: cover;
-    height: 414pt;
+    height: 335pt;
 }
 
 .box-image:hover {
@@ -308,6 +308,26 @@ nav a {
     width: 50pt;
 }
 
+.mask01 {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.mask01:hover {
+    top: -10px;
+}
+
+.mask02 {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.mask02:hover {
+    top: 10px;
+}
+
 .flex-containerhtext1 {
     display: flex;
     width: 100%;
@@ -346,14 +366,18 @@ nav a {
     margin-top: -20px;
 }
 
-input[type=text],
-input[type=submit] {
+.container {
+    width: 71%;
+}
+
+input[type=text] {
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid rgb(49, 49, 49);
     box-sizing: border-box;
     border-radius: 15px;
+    width: 100%;
 }
 
 .button3 {
@@ -363,7 +387,7 @@ input[type=submit] {
     font-size: 14px;
     cursor: pointer;
     width: 100px;
-    height: 50px;
+    padding: 12px;
     border-radius: 15px;
 }
 
