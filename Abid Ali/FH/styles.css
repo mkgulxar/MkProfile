@@ -316,18 +316,19 @@ nav a {
 }
 
 .mask01:hover {
-    top: -10px;
+    top: -30px;
 }
 
-.mask02 {
+
+/* .mask02 {
     position: relative;
     top: 0;
     transition: top ease 0.5s;
 }
 
 .mask02:hover {
-    top: 10px;
-}
+    top: 30px;
+} */
 
 .flex-containerhtext1 {
     display: flex;
