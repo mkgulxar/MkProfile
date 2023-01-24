@@ -50,3 +50,8 @@
     font-family: poppins;
     font-size: 13pt;
 }
+
+.section2 {
+    float: left;
+    justify-content: center;
+}
