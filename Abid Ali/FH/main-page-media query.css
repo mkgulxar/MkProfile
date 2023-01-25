@@ -36,6 +36,23 @@
     .text01 {
         font-size: 3vw;
     }
+    nav {
+        float: right;
+        background: rgb(117, 116, 116);
+        position: absolute;
+        right: 0;
+        top: 70pt;
+    }
+    nav ul li {
+        display: block;
+        padding: 10pt 75pt 32px 13px;
+    }
+    nav ul li a {
+        color: #fff;
+    }
+    #menu-icon {
+        display: block;
+    }
 }
 
 @media (max-width:1052px) {

@@ -24,7 +24,7 @@
 .nav {
     width: 100%;
     display: flex;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     justify-content: center;
 }
 
@@ -38,9 +38,18 @@ nav a {
     text-decoration: none;
     color: black;
     font-size: 13px;
+    font-weight: 600;
     font-family: "Poppins";
     width: 300;
     line-height: 19.5px;
+}
+
+#menu-icon {
+    font-size: 28px;
+    position: absolute;
+    top: 38px;
+    right: 25px;
+    display: none;
 }
 
 .flex-banner {
