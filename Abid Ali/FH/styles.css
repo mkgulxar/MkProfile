@@ -6,10 +6,6 @@
     overflow-x: hidden;
 }
 
-.flex-container {
-    display: flex;
-}
-
 .logo {
     width: 90pt;
     height: auto;
@@ -32,10 +28,14 @@
     justify-content: center;
 }
 
+nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+
 nav a {
     margin-left: 10px;
     text-decoration: none;
-    list-style-type: none;
     color: black;
     font-size: 13px;
     font-family: "Poppins";
@@ -453,97 +453,4 @@ nav a {
     color: #fff;
     overflow: hidden;
     font-size: 12px;
-}
-
-
-/* Media Query */
-
-@media (max-width:900px) {
-    .bannercontainer {
-        flex-wrap: wrap;
-        height: auto;
-    }
-    .flex-banner {
-        height: auto;
-    }
-    .heading01 {
-        margin: 5%;
-        width: 100%;
-    }
-    .banner01 {
-        margin: 5%;
-    }
-    .flex-Container04 {
-        width: 83%;
-    }
-    .flex-Container02 {
-        width: 83%;
-    }
-    .heading01 {
-        text-align: center;
-    }
-    .heading01 p {
-        text-align: center;
-    }
-    .heading01 h2 {
-        font-size: 14px;
-    }
-}
-
-@media (max-width:1052px) {
-    .flex-container06 div {
-        flex-wrap: wrap;
-    }
-    .flex-container06 .flex-container-text h1 {
-        text-align: center;
-    }
-    .flex-container06 .flex-container-text h2 {
-        text-align: center;
-    }
-    .flex-container06 .flex-container-text h3 {
-        text-align: center;
-    }
-    .flex-container06 .flex-container-text p {
-        text-align: center;
-    }
-}
-
-@media (max-width:500px) {
-    form {
-        flex-wrap: wrap;
-    }
-    .flex-container06 .flex-container-text h1 {
-        text-align: center;
-        font-size: 30px;
-    }
-    .flex-container06 .flex-container-text h2 {
-        text-align: center;
-        font-size: 40px;
-    }
-    .flex-container06 .flex-container-text h3 {
-        text-align: center;
-        font-size: 30px;
-    }
-    .flex-container06 .flex-container-text p {
-        text-align: center;
-        font-size: 14px;
-    }
-    .heading01 h1 {
-        font-size: 26px;
-    }
-    .text02 {
-        font-size: 20px;
-    }
-    .text04 {
-        font-size: 22px;
-    }
-    .text02 {
-        font-size: 16px
-    }
-    .Container .text h2 {
-        font-size: 20pt;
-    }
-    .textteam {
-        font-size: 11pt;
-    }
 }
