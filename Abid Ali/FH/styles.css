@@ -486,7 +486,7 @@ nav a {
         text-align: center;
     }
     .heading01 h2 {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -526,9 +526,24 @@ nav a {
     }
     .flex-container06 .flex-container-text p {
         text-align: center;
+        font-size: 14px;
+    }
+    .heading01 h1 {
+        font-size: 26px;
+    }
+    .text02 {
         font-size: 20px;
     }
-    .heading01 h2 {
-        font-size: 10px;
+    .text04 {
+        font-size: 22px;
+    }
+    .text02 {
+        font-size: 16px
+    }
+    .Container .text h2 {
+        font-size: 20pt;
+    }
+    .textteam {
+        font-size: 11pt;
     }
 }
