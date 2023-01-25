@@ -24,8 +24,11 @@
 .nav {
     width: 100%;
     display: flex;
-    /* margin-top: 10px; */
     justify-content: center;
+}
+
+nav ul {
+    max-height: 300px;
 }
 
 nav ul li {
