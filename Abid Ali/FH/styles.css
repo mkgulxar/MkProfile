@@ -27,10 +27,6 @@
     justify-content: center;
 }
 
-.none {
-    display: none;
-}
-
 nav ul li {
     list-style-type: none;
     display: inline;
@@ -389,7 +385,7 @@ nav a {
     font-size: 14pt;
     cursor: pointer;
     width: 100px;
-    /* padding: 12px; */
+    color: #fff;
     height: 30pt;
     border-radius: 11px;
     font-size: 17px;
@@ -425,7 +421,7 @@ nav a {
     font-size: 47px;
     font-weight: 400;
     line-height: 0.9;
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: #3F3F3F;
     overflow: hidden;
 }
