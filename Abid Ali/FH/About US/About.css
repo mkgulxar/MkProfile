@@ -1,0 +1,57 @@
+.flex-container {
+    display: flex;
+}
+
+.logo {
+    width: 90pt;
+    height: auto;
+    cursor: pointer;
+}
+
+.logocontainer {
+    width: 100%;
+    text-align: center;
+}
+
+.flex-Container1 {
+    display: flex;
+}
+
+.flex-Container1 div {
+    width: 100%;
+}
+
+.section1 {
+    text-align: right;
+}
+
+.abouttextcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    font-size: 96pt;
+    font-family: poppins;
+}
+
+.aboutP {
+    font-size: 10pt;
+    font-family: poppins;
+    margin-top: -150pt;
+    text-align: right;
+}
+
+.aboutP p {
+    width: 100%;
+}
+
+.abouth2 {
+    font-family: poppins;
+    font-size: 13pt;
+}
+
+.section2 {
+    float: left;
+    justify-content: center;
+}
