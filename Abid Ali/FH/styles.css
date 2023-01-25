@@ -28,7 +28,7 @@
 }
 
 nav ul {
-    max-height: 300px;
+    max-height: 300px !important;
 }
 
 nav ul li {
