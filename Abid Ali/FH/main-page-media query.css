@@ -36,7 +36,7 @@
     .text01 {
         font-size: 3vw;
     }
-    nav {
+    /* nav {
         float: right;
         background: rgb(117, 116, 116);
         position: absolute;
@@ -59,6 +59,17 @@
     }
     .none {
         display: none;
+    } */
+    nav ul {
+        display: grid;
+        position: absolute;
+        background: #404040;
+        width: 100%;
+        top: 75px;
+        left: 0;
+        /* transform: translateY(-100%); */
+        z-index: -1;
+        transition: .6s;
     }
 }
 
