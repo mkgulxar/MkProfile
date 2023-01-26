@@ -31,14 +31,13 @@
 }
 
 .about {
-    font-size: 96pt;
+    font-size: 85pt;
     font-family: poppins;
 }
 
 .aboutP {
     font-size: 10pt;
     font-family: poppins;
-    margin-top: -150pt;
     text-align: right;
 }
 
