@@ -36,40 +36,8 @@
     .text01 {
         font-size: 3vw;
     }
-    /* nav {
-        float: right;
-        background: rgb(117, 116, 116);
-        position: absolute;
-        right: 0;
-        top: 70pt;
-    }
-    nav ul {
-        overflow: hidden;
-        transition: max-height 0.5s;
-    }
-    nav ul li {
-        display: block;
-        padding: 10pt 75pt 32px 13px;
-    }
-    nav ul li a {
-        color: #fff;
-    }
-    #menu-icon {
-        display: block;
-    }
-    .none {
-        display: none;
-    } */
-    nav ul {
-        display: grid;
-        position: absolute;
-        background: #404040;
-        width: 100%;
-        top: 75px;
-        left: 0;
-        /* transform: translateY(-100%); */
-        z-index: -1;
-        transition: .6s;
+    .heading01 h2 {
+        font-size: 16px;
     }
 }
 
