@@ -43,6 +43,10 @@
         right: 0;
         top: 70pt;
     }
+    nav ul {
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
     nav ul li {
         display: block;
         padding: 10pt 75pt 32px 13px;
@@ -52,6 +56,9 @@
     }
     #menu-icon {
         display: block;
+    }
+    .none {
+        display: none;
     }
 }
 
@@ -116,13 +123,10 @@
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:426px) {
     .flex-Container-3 {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    }
-    .box-image {
-        /* width: 50%; */
     }
 }
