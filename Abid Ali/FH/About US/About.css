@@ -80,6 +80,9 @@
 .about-text {
     width: 1133px;
     margin: auto;
+    text-align: center;
 }
 
-.about
+.about-text p {
+    font-size: 13px;
+}
