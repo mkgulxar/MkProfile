@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .section1 {
@@ -33,11 +34,11 @@
 }
 
 .aboutP {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .aboutP p {
-    width: 623px;
+    max-width: 623px;
 }
 
 .abouth2 {
@@ -49,33 +50,36 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    column-gap: 1%;
+    /* column-gap: 1%; */
+    flex-wrap: wrap;
 }
 
 .form form input {
-    height: 30px;
+    height: 25px;
     outline: none;
     border: 1px solid #000;
-    border-radius: 5px;
+    border-radius: 11px;
     padding: 10px;
-    font-size: 11px;
+    font-size: 17px;
+    color: #C2C2C2;
     width: 100%;
 }
 
 .form .btn button {
-    height: 30px;
+    height: 25px;
     width: 60px;
     outline: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 11px;
     padding: 10px;
     background: #58AAE5;
     color: #fff;
-    font-size: 11px;
+    font-size: 17px;
+    margin-left: 25px;
 }
 
 .about-text {
-    width: 1133px;
+    max-width: 1133px;
     margin: auto;
     text-align: center;
 }
