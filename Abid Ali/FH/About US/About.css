@@ -1,22 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-family: "Poppins";
 }
 
-.logo {
-    width: 90pt;
+.Aboutlogocontainer .logo {
+    width: 90px;
     height: auto;
     cursor: pointer;
 }
 
-.logocontainer {
+.Aboutlogocontainer {
     width: 100%;
     text-align: center;
 }
 
-.flex-Container1 {
+.Aboutflex-Container1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,15 +27,13 @@
     text-align: right;
 }
 
-.about {
-    font-size: 85pt;
-    font-family: poppins;
+.about h1 {
+    font-size: 70px;
     line-height: 1;
 }
 
 .aboutP {
-    font-size: 10pt;
-    font-family: poppins;
+    font-size: 10px;
 }
 
 .aboutP p {
@@ -43,9 +41,8 @@
 }
 
 .abouth2 {
-    font-family: poppins;
-    font-size: 13pt;
-    margin-bottom: 60pt;
+    font-size: 13px;
+    margin-bottom: 60px;
 }
 
 .form {
@@ -56,25 +53,25 @@
 }
 
 .form form input {
-    height: 30pt;
+    height: 30px;
     outline: none;
     border: 1px solid #000;
-    border-radius: 5pt;
+    border-radius: 5px;
     padding: 10px;
-    font-size: 11pt;
+    font-size: 11px;
     width: 100%;
 }
 
 .form .btn button {
-    height: 30pt;
-    width: 60pt;
+    height: 30px;
+    width: 60px;
     outline: none;
     border: none;
-    border-radius: 5pt;
+    border-radius: 5px;
     padding: 10px;
     background: #58AAE5;
     color: #fff;
-    font-size: 11pt;
+    font-size: 11px;
 }
 
 .about-text {
