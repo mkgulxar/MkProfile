@@ -28,6 +28,11 @@
     text-align: right;
 }
 
+.section2 img {
+    width: 291px;
+    height: auto;
+}
+
 .about h1 {
     font-size: 70px;
     line-height: 1;
