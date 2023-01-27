@@ -5,10 +5,6 @@
     font-family: "Poppins";
 }
 
-.flex-container {
-    display: flex;
-}
-
 .logo {
     width: 90pt;
     height: auto;
@@ -24,11 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-wrap: wrap; */
-}
-
-.flex-Container1 div {
-    width: 100%;
+    flex-wrap: wrap;
 }
 
 .section1 {
@@ -43,17 +35,16 @@
 .about {
     font-size: 85pt;
     font-family: poppins;
+    line-height: 1;
 }
 
 .aboutP {
     font-size: 10pt;
     font-family: poppins;
-    text-align: right;
 }
 
 .aboutP p {
     width: 623px;
-    float: right;
 }
 
 .abouth2 {
@@ -61,13 +52,11 @@
     font-size: 13pt;
 }
 
-.section2 {
-    /* float: left; */
-    justify-content: center;
-}
-
 .form {
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 1%;
 }
 
 .form form input {
