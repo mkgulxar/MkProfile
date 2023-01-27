@@ -27,11 +27,6 @@
     text-align: right;
 }
 
-.abouttextcontainer {
-    display: flex;
-    flex-direction: column;
-}
-
 .about {
     font-size: 85pt;
     font-family: poppins;
