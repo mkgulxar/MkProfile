@@ -67,6 +67,7 @@
     border-radius: 11px;
     padding: 10px;
     font-size: 17px;
+    margin-top: 10px;
     color: #C2C2C2;
     width: 100%;
 }
@@ -81,6 +82,7 @@
     background: #58AAE5;
     color: #fff;
     font-size: 17px;
+    margin-top: 10px;
     cursor: pointer;
     margin-left: 25px;
 }
