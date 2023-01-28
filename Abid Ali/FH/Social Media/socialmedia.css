@@ -123,12 +123,26 @@
     
     .flex-container {
         display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
     
     .flex-container>div {
         margin: 10px;
         text-align: center;
         font-size: 30px;
+    }
+    
+    .flex-container .basic .basicsection1 h1 {
+        font-size: 34px;
+        font-weight: 600;
+        color: #000;
+        text-transform: capitalize;
+    }
+    
+    .flex-container .basic .basicsection .basicsection2 img {
+        width: 172px;
+        height: 432px;
     }
     
     .banner-container4 {
