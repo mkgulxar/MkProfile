@@ -5,6 +5,56 @@
         font-family: "Poppins";
     }
     
+    .Aboutlogocontainer .logo {
+        width: 90px;
+        height: auto;
+        cursor: pointer;
+    }
+    
+    .Aboutlogocontainer {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner-container1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    .socialflexcontainer1 img {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .banner-container1 .socialflexcontainer2 .socialflexheading1 h1 {
+        font-size: 82px;
+        font-weight: 600;
+        color: #000;
+        line-height: 1;
+    }
+    
+    .banner-container1 .socialflexcontainer2 .socialflexheading2 h2 {
+        font-size: 26px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .banner-container1 .socialflexcontainer2 .socialflexparagraph p {
+        font-size: 13px;
+        font-weight: 300;
+        color: #000;
+        max-width: 579px;
+    }
+    
+    .banner-container1 .socialflexcontainer2 .socialflexheading3 h3 {
+        font-size: 13px;
+        font-weight: 600;
+        color: #000;
+    }
+    
     .banner-container2 {
         display: flex;
         align-items: center;
@@ -35,4 +85,142 @@
         font-weight: 300;
         color: #000;
         max-width: 579px;
+    }
+    
+    .banner-container3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .banner-container3-1 {
+        text-align: center;
+    }
+    
+    .basicsection {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .basicsection div {
+        flex-direction: column;
+    }
+    
+    .sociallink {
+        margin-top: 20pt;
+    }
+    
+    .social-heading3 {
+        font-family: poppins;
+    }
+    
+    .social-paragraph3 {
+        font-family: poppins;
+    }
+    
+    .flex-container {
+        display: flex;
+    }
+    
+    .flex-container>div {
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .banner-container4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 20px 0px 20px;
+    }
+    
+    .banner-container4-1 {
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    .banner-container4-1 .social-text h1 {
+        font-size: 54px;
+        font-weight: 600;
+        color: #000;
+        line-height: 1;
+    }
+    
+    .banner-container4-1 .social-paragraph2 p {
+        font-size: 24px;
+        font-weight: 400;
+        color: #000;
+    }
+    
+    .banner-container4-2 img {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .flex-containerfooter {
+        display: flex;
+    }
+    
+    .flex-containerfooter div {
+        width: 100%;
+        background-color: #222222;
+        height: 66px;
+    }
+    
+    .footertext p {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        font-family: poppins;
+        height: 100%;
+        color: #fff;
+        overflow: hidden;
+        font-size: 12px;
+    }
+    
+    @media (max-width:768px) {
+        .banner-container2 .socal-banner1 {
+            text-align: center;
+        }
+        .banner-container2 .socal-banner1 .social-heading1 h1 {
+            font-size: 60px;
+            font-weight: 600;
+        }
+        .banner-container2 .socal-banner1 .social-heading2 h2 {
+            font-size: 21px;
+        }
+        .banner-container4-1 .social-text h1 {
+            font-size: 40px;
+        }
+        .banner-container4-1 .social-paragraph2 p {
+            font-size: 21px;
+        }
+    }
+    
+    @media (max-width:425px) {
+        .banner-container2 .socal-banner1 {
+            text-align: center;
+        }
+        .banner-container2 .socal-banner1 .social-heading1 h1 {
+            font-size: 47px;
+            font-weight: 600;
+        }
+        .banner-container2 .socal-banner1 .social-heading2 h2 {
+            font-size: 18px;
+        }
+        .banner-container4-1 .social-text h1 {
+            font-size: 30px;
+        }
+        .banner-container4-1 .social-paragraph2 p {
+            font-size: 18px;
+        }
     }
