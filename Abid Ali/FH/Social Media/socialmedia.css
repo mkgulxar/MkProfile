@@ -15,10 +15,19 @@
         width: 100%;
         text-align: center;
     }
-    /* .socialflexcontainer1 img {
+    
+    .banner-container1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    .socialflexcontainer1 img {
         width: 100%;
         height: 350px;
-    } */
+    }
     
     .banner-container1 .socialflexcontainer2 .socialflexheading1 h1 {
         font-size: 82px;
@@ -34,8 +43,15 @@
     }
     
     .banner-container1 .socialflexcontainer2 .socialflexparagraph p {
-        font-size: 26px;
-        font-weight: 500;
+        font-size: 13px;
+        font-weight: 300;
+        color: #000;
+        max-width: 579px;
+    }
+    
+    .banner-container1 .socialflexcontainer2 .socialflexheading3 h3 {
+        font-size: 13px;
+        font-weight: 600;
         color: #000;
     }
     
@@ -120,7 +136,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 20px;
+        padding: 20px 20px 0px 20px;
     }
     
     .banner-container4-1 {
@@ -144,6 +160,31 @@
     .banner-container4-2 img {
         width: 100%;
         height: 300px;
+    }
+    
+    .flex-containerfooter {
+        display: flex;
+    }
+    
+    .flex-containerfooter div {
+        width: 100%;
+        background-color: #222222;
+        height: 66px;
+    }
+    
+    .footertext p {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        font-family: poppins;
+        height: 100%;
+        color: #fff;
+        overflow: hidden;
+        font-size: 12px;
     }
     
     @media (max-width:768px) {

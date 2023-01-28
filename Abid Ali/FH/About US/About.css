@@ -37,6 +37,7 @@
     font-size: 70px;
     line-height: 1;
     font-weight: 600;
+    margin-bottom: 43px;
 }
 
 .aboutP {
@@ -45,6 +46,7 @@
 
 .aboutP p {
     max-width: 623px;
+    margin-bottom: 12px;
 }
 
 .abouth2 {
