@@ -1,0 +1,38 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins";
+    }
+    
+    .banner-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .banner-container .socal-banner1 {
+        text-align: right;
+    }
+    
+    .banner-container .socal-banner1 .social-heading1 h1 {
+        font-size: 82px;
+        font-weight: 600;
+        line-height: 1;
+        color: #000;
+    }
+    
+    .banner-container .socal-banner1 .social-heading2 h2 {
+        font-size: 26px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .banner-container .socal-banner1 .social-paragraph p {
+        font-size: 13px;
+        font-weight: 300;
+        color: #000;
+        max-width: 579px;
+    }
