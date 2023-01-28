@@ -37,6 +37,25 @@
         max-width: 579px;
     }
     
+    .banner-container3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .banner-container3-1 {
+        text-align: center;
+    }
+    
+    .social-heading3 {
+        font-family: poppins;
+    }
+    
+    .social-paragraph3 {
+        font-family: poppins;
+    }
+    
     .banner-container4 {
         display: flex;
         align-items: center;
