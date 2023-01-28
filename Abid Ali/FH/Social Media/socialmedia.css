@@ -90,6 +90,16 @@
         font-family: poppins;
     }
     
+    .flex-container {
+        display: flex;
+    }
+    
+    .flex-container>div {
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
     .banner-container4 {
         display: flex;
         align-items: center;
