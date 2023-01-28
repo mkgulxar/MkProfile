@@ -82,6 +82,21 @@
         text-align: center;
     }
     
+    .basicsection {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .basicsection div {
+        flex-direction: column;
+    }
+    
+    .sociallink {
+        margin-top: 20pt;
+    }
+    
     .social-heading3 {
         font-family: poppins;
     }
