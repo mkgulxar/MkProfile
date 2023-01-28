@@ -14,3 +14,28 @@ code {
 *{
   margin: 0; padding: 0;
 }
+/* MAIN THEMATIC OF WEBSITE */
+
+h1 {
+  font-size: 96pt;
+}
+h2 {
+  font-size: 33pt;
+}
+h3 {
+  font-size: 26pt;
+}
+h4 {
+  font-size: 19pt;
+}
+h5 {
+  font-size: 19pt;
+}
+p {
+  font-size: 11pt;
+}
+
+/* off  */
+flex-togg{
+  display: flex; justify-content: center;margin: 20%; text-align: center;
+}
