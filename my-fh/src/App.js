@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './MainPage/App.css';
 
 function App() {
   return (
@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         F Group of comapnies.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="http://www.fhgroupoc.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          FH GROUP OF COMPAINES
         </a>
       </header>
     </div>
