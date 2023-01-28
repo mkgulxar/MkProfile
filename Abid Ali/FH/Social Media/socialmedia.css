@@ -121,14 +121,59 @@
         font-family: poppins;
     }
     
+    .banner-container3 .banner-container3-1 .social-heading3 h1 {
+        font-size: 54px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .banner-container3 .banner-container3-1 .social-paragraph3 p {
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+    }
+    
     .flex-container {
         display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
     
     .flex-container>div {
         margin: 10px;
         text-align: center;
         font-size: 30px;
+    }
+    
+    .flex-container .basic .basicsection1 h1 {
+        font-size: 34px;
+        font-weight: 600;
+        color: #000;
+        text-transform: capitalize;
+    }
+    
+    .flex-container .basic .basicsection .basicsection2 img {
+        width: 172px;
+        height: 432px;
+    }
+    
+    .flex-container .basic .basicsection .basicsection3 .number h2 {
+        font-size: 46px;
+        font-weight: 600;
+        color: #000;
+    }
+    
+    .flex-container .basic .basicsection .basicsection3 .basicsection-text p {
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .flex-container .basic .basicsection .basicsection3 .sociallink .basicsection-text p {
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
     }
     
     .banner-container4 {
