@@ -5,6 +5,17 @@
         font-family: "Poppins";
     }
     
+    .Aboutlogocontainer .logo {
+        width: 90px;
+        height: auto;
+        cursor: pointer;
+    }
+    
+    .Aboutlogocontainer {
+        width: 100%;
+        text-align: center;
+    }
+    
     .banner-container2 {
         display: flex;
         align-items: center;
