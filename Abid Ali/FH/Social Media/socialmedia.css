@@ -25,7 +25,7 @@
     }
     
     .socialflexcontainer1 img {
-        width: 100%;
+        width: 318px;
         height: 350px;
     }
     
@@ -302,5 +302,17 @@
         }
         .banner-container3 .banner-container3-1 .social-paragraph3 p {
             font-size: 18px;
+        }
+    }
+    
+    @media ( max-width:350px) {
+        .banner-container1 .socialflexcontainer2 .socialflexheading1 h1 {
+            font-size: 40px;
+        }
+        .banner-container2 .socal-banner1 .social-heading1 h1 {
+            font-size: 40px;
+        }
+        .banner-container3 .banner-container3-1 .social-heading3 h1 {
+            font-size: 40px;
         }
     }
