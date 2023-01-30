@@ -60,7 +60,7 @@
         align-items: center;
         justify-content: space-evenly;
         padding: 20px;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
     
     .banner-container2 .socal-banner1 {
