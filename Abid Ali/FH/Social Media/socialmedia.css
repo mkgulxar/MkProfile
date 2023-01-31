@@ -25,7 +25,7 @@
     }
     
     .socialflexcontainer1 img {
-        width: 100%;
+        width: 318px;
         height: 350px;
     }
     
@@ -47,6 +47,7 @@
         font-weight: 300;
         color: #000;
         max-width: 579px;
+        margin-bottom: 15px;
     }
     
     .banner-container1 .socialflexcontainer2 .socialflexheading3 h3 {
@@ -60,7 +61,7 @@
         align-items: center;
         justify-content: space-evenly;
         padding: 20px;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
     
     .banner-container2 .socal-banner1 {
@@ -92,6 +93,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        padding: 20px;
     }
     
     .banner-container3-1 {
@@ -125,6 +127,7 @@
         font-size: 54px;
         font-weight: 600;
         text-align: center;
+        line-height: 1;
     }
     
     .banner-container3 .banner-container3-1 .social-paragraph3 p {
@@ -138,6 +141,7 @@
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        padding: 20px;
     }
     
     .flex-container>div {
@@ -202,6 +206,10 @@
         color: #000;
     }
     
+    .banner-container4-2 {
+        display: flex;
+    }
+    
     .banner-container4-2 img {
         width: 100%;
         height: 300px;
@@ -236,6 +244,9 @@
         .banner-container2 .socal-banner1 {
             text-align: center;
         }
+        .socialflexcontainer2 {
+            text-align: center;
+        }
         .banner-container2 .socal-banner1 .social-heading1 h1 {
             font-size: 60px;
             font-weight: 600;
@@ -249,9 +260,21 @@
         .banner-container4-1 .social-paragraph2 p {
             font-size: 21px;
         }
+        .banner-container1 .socialflexcontainer2 .socialflexheading1 h1 {
+            font-size: 60px;
+        }
+        .banner-container1 .socialflexcontainer2 .socialflexheading2 h2 {
+            font-size: 21px;
+        }
+        .banner-container3 .banner-container3-1 .social-heading3 h1 {
+            font-size: 60px;
+        }
+        .banner-container3 .banner-container3-1 .social-paragraph3 p {
+            font-size: 21px;
+        }
     }
     
-    @media (max-width:425px) {
+    @media (max-width:426px) {
         .banner-container2 .socal-banner1 {
             text-align: center;
         }
@@ -267,5 +290,29 @@
         }
         .banner-container4-1 .social-paragraph2 p {
             font-size: 18px;
+        }
+        .banner-container1 .socialflexcontainer2 .socialflexheading1 h1 {
+            font-size: 47px;
+        }
+        .banner-container1 .socialflexcontainer2 .socialflexheading2 h2 {
+            font-size: 18px;
+        }
+        .banner-container3 .banner-container3-1 .social-heading3 h1 {
+            font-size: 47px;
+        }
+        .banner-container3 .banner-container3-1 .social-paragraph3 p {
+            font-size: 18px;
+        }
+    }
+    
+    @media ( max-width:350px) {
+        .banner-container1 .socialflexcontainer2 .socialflexheading1 h1 {
+            font-size: 40px;
+        }
+        .banner-container2 .socal-banner1 .social-heading1 h1 {
+            font-size: 40px;
+        }
+        .banner-container3 .banner-container3-1 .social-heading3 h1 {
+            font-size: 40px;
         }
     }
