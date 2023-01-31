@@ -8,8 +8,14 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD:fh/package.json
+    "react-router": "^6.8.0",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
+=======
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.1",
+>>>>>>> 8b3c0e812962ca65642c33c4b20f45a46a993bc9:fh-website/package.json
     "web-vitals": "^2.1.4"
   },
   "scripts": {
