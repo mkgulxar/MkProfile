@@ -97,7 +97,7 @@
 
 .about-text p {
     font-size: 13px;
-    padding: 10px;
+    padding: 0 10px 0 10px;
 }
 
 @media (max-width:768px) {
