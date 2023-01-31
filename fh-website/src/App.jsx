@@ -5,6 +5,7 @@ import Home from "./page/Home";
 import About from "./page/About";
 import Contact from "./page/Contact";
 import Service from "./page/Service";
+import Footer from "./page/Footer";
 
 import { Switch, Route, Redirect } from "react-router-dom";
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route exact path="/service" component={Service} />
         <Redirect to="/" />
       </Switch>
+      <Footer/>
     </>
   );
 };
