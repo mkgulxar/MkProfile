@@ -2,8 +2,10 @@
   margin: 0;padding: 0;
 }
 
-h4{ font-size: small; font-family: Arial, Helvetica, sans-serif; }
-
+h1{font-size: 60pt; color: rgb(41, 41, 41);}
+h2{font-size: 20pt; color: rgb(82, 82, 82);}
+h4{ font-size: small; font-family: Arial, Helvetica, sans-serif;}
+p{font-size: 10pt; color: rgb(70, 70, 70);}
 
 body {
   margin: 0; padding: 0;
