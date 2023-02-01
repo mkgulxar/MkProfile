@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    overflow-x: hidden;
+}
+
+
+/*--LOGO START--*/
+
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+.logomain {
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 80pt;
+    height: 80pt;
+}
+
+
+/*--LOGO END--*/
+
+
+/*-- NAV BAR START --*/
+
+.flex-containernav {
+    display: flex;
+    justify-content: center;
+}
+
+.navul {
+    text-align: center;
+    display: flex;
+}
+
+.navul li a {
+    margin-left: 10pt;
+    font-family: poppins;
+    font-size: 13pt;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*-- NAV BAR END --*/
+
+
+/*-- BANNER 1 START --*/
+
+.flex-containerB1 {
+    display: flex;
+}
+
+.B1 div {
+    width: 100%;
+}
+
+.flex-containerB1Text {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-containerB1 div h1 {
+    font-family: poppins;
+    font-size: 96pt;
+}
+
+.flex-containerB1 div h4 {
+    font-family: poppins;
+    font-size: 33pt;
+}
+
+.flex-containerB1 div p {
+    font-family: poppins;
+    font-size: 13pt;
+}
+
+
+/*-- BANNER 1 END --*/
