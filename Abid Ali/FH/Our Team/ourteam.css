@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logomain {
+    width: 100%;
+}
+
+.logo {
+    width: 90pt;
+}
+
+.flex-containerB1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: poppins;
+    font-size: 40pt;
+}
