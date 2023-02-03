@@ -1,0 +1,157 @@
+/* ------Our Team Page------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Logo2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.Heading h1 {
+    text-align: center;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.Pic {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.teamimg img {
+    width: 1000px;
+    height: 619px;
+}
+
+.para p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    width: 623px;
+}
+
+.para h2 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+}
+
+
+/* ------Our Team Page----- */
+
+
+/* -------Team Member Page------- */
+
+.First-Person {
+    text-align: center;
+    padding: 10px;
+}
+
+.First-Person img {
+    border-radius: 50%;
+}
+
+.Second-line-member {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.team-member-2 p {
+    width: 283px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.Second-center img {
+    border-radius: 100%;
+}
+
+.Second-center {
+    text-align: center;
+}
+
+.team-member-1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.team-member-1 h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 47.2px;
+    font-family: "Inter";
+}
+
+.team-member-1 h2 {
+    font-size: 29px;
+    font-weight: 400;
+    font-family: "Poppins";
+    line-height: 43.5px;
+}
+
+.team-member-1 p {
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    width: 963px;
+}
+
+.team-member-2 h1 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.team-member-2 h2 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+}
+
+.team-member-2 p {
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Poppins";
+}
+
+.Third-center img {
+    border-radius: 100%;
+}
+
+.Third-center {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.team-member-2 h1 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.team-member-3 h2 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+}
+
+.team-member-3 p {
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Poppins";
+}

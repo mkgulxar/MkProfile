@@ -40,7 +40,8 @@ const Choose = () => {
      <div className="choose-text">
         <h2>Let's Build Something</h2>
         <div className="choose-btn">
-          <button>OUR TEAM</button>
+          {/* <button>OUR TEAM</button> */}
+        <a href="/team">OUR TEAM</a>
         </div>
       </div>
      </div>

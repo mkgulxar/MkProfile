@@ -5,6 +5,8 @@ import Contact from './pages/Contact'
 import Socialmesia from './pages/Socialmesia'
 import Service from './pages/Service'
 import Header from './pages/Header'
+import Footer from './pages/Footer'
+import Team from './pages/Team';
 
 
 import { Switch, Redirect, Route } from 'react-router-dom';
@@ -19,9 +21,11 @@ function App() {
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/Socialmesia" component={Socialmesia} />
         <Route exact path="/Service" component={Service} />
+        <Route exact path="/Team" component={Team} />
 
         <Redirect to="/" />
       </Switch>
+      <Footer/>
     </>
   );
 }
