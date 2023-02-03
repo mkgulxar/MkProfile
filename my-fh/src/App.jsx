@@ -4,6 +4,8 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Socialmesia from './pages/Socialmesia'
 import Service from './pages/Service'
+import Header from './pages/Header'
+
 
 import { Switch, Redirect, Route } from 'react-router-dom';
 
