@@ -40,7 +40,6 @@ const Choose = () => {
      <div className="choose-text">
         <h3>Let's Build Something</h3>
         <div className="choose-btn">
-          {/* <button>OUR TEAM</button> */}
         <a href="/team">OUR TEAM</a>
         </div>
       </div>

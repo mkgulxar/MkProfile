@@ -15,7 +15,7 @@ export const Section2 = () => {
           clients which not only saves time and energy but the creative
           output that is unlikely to be found elsewhere.
         </p>
-        <button> SEE MORE</button>
+        <a href="/Test">SEE MORE</a>
       </div>
     </>
   );

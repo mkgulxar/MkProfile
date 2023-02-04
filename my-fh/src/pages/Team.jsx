@@ -89,7 +89,7 @@ const Team = () => {
               overall know-how of what is needed to build
             </p>
           </div>
-        </div>{" "}
+        </div>
         <div className="Second-center">
           <img src={MeM4} alt="" />
           <div className="team-member-2">
