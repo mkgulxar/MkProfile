@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Test = () => {
+const Text = () => {
   return (
     <>
    <h1>test</h1>
@@ -9,4 +9,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default Text;

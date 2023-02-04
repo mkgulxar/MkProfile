@@ -1,5 +1,6 @@
 import React from "react";
 import "./Choose.css";
+import { Link } from 'react-router-dom';
 
 const Choose = () => {
   return (
@@ -17,7 +18,9 @@ const Choose = () => {
       <div className="banner2-flex">
       <div className="team mask-1">
         <div className="team-work1 teamw">
+        <Link to="/image" target="_blank" rel="noreferrer">
             <img  src="https://i.pinimg.com/564x/89/7b/96/897b964fc8388d2cdfbdccc578e26a04.jpg" alt="" />
+            </Link>
         </div>
       </div>
       <div className="team mask-2">

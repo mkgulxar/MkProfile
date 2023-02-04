@@ -105,19 +105,16 @@
     max-width: 837px;
 }
 
-.SecondH button {
-    width: 241px;
-    height: 47px;
-    background: #58AAE6;
+.SecondH a {
+    text-decoration: none;
+    background: #58AAE5;
+    padding: 10px 75px;
     border: 1px solid #6DC2FF;
-    box-shadow: 0px 14px 28px rgba(156, 214, 255, 0.67);
+    box-shadow: 0px 14px 28px rgb(156 214 255 / 67%);
     border-radius: 27px;
-    font-weight: 500;
+    color: #fff;
     font-size: 17px;
-    text-align: center;
-    color: #FFFFFF;
-    cursor: pointer;
-    margin: 25px 0 45px 0;
+    margin-top: 20px;
 }
 
 
