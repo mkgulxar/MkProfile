@@ -3,7 +3,8 @@ import "./Banner.css";
 
 import pic1 from "./Image/team.png";
 
-export const Banner = () => {
+const Banner = () => {
+
   return (
     <>
     <div className="banner">

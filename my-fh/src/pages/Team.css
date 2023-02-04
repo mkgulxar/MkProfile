@@ -22,15 +22,17 @@
 }
 
 .teamimg img {
-    width: 1000px;
-    height: 619px;
+    /* width: 1000px;
+    height: 619px; */
+    width: 100%;
+    height: auto;
 }
 
 .para p {
     text-align: center;
     font-size: 13px;
     font-weight: 300;
-    width: 623px;
+    max-width: 623px;
 }
 
 .para h2 {
@@ -59,10 +61,13 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 20px auto;
 }
 
 .team-member-2 p {
-    width: 283px;
+    max-width: 283px;
     font-size: 13px;
     font-weight: 300;
 }
@@ -73,6 +78,7 @@
 
 .Second-center {
     text-align: center;
+    margin: 10px;
 }
 
 .team-member-1 {
@@ -88,7 +94,6 @@
     font-weight: 600;
     font-size: 39px;
     line-height: 47.2px;
-    font-family: "Inter";
 }
 
 .team-member-1 h2 {
@@ -103,7 +108,7 @@
     font-size: 13px;
     font-weight: 300;
     line-height: 20px;
-    width: 963px;
+    max-width: 963px;
 }
 
 .team-member-2 h1 {

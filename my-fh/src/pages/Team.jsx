@@ -15,7 +15,7 @@ const Team = () => {
           <h1>OUR TEAM</h1>
         </div>
         <div className="teamimg">
-          <img src={Photo} alt=""/>
+          <img src={Photo} alt="" />
         </div>
         <div className="para">
           <p>
@@ -79,11 +79,20 @@ const Team = () => {
             </p>
           </div>
         </div>
-        </div>
-        <div>
-        <div className="Third-center">
+        <div className="Second-center">
           <img src={MeM4} alt="" />
-          <div className="team-member-3">
+          <div className="team-member-2">
+            <h1>Ali Haider</h1>
+            <h2>React | HTML</h2>
+            <p>
+              It is a world class group which offers experience, equipment, and
+              overall know-how of what is needed to build
+            </p>
+          </div>
+        </div>{" "}
+        <div className="Second-center">
+          <img src={MeM4} alt="" />
+          <div className="team-member-2">
             <h1>Ali Haider</h1>
             <h2>React | HTML</h2>
             <p>
@@ -92,18 +101,7 @@ const Team = () => {
             </p>
           </div>
         </div>
-        <div className="Third-center">
-          <img src={MeM4} alt="" />
-          <div className="team-member-3">
-            <h1>Ali Haider</h1>
-            <h2>React | HTML</h2>
-            <p>
-              It is a world class group which offers experience, equipment, and
-              overall know-how of what is needed to build
-            </p>
-          </div>
-        </div>
-        </div>
+      </div>
     </>
   );
 };
