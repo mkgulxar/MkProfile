@@ -9,7 +9,6 @@
 
 .Footer-Heading h1 {
     font-size: 49px;
-    /* font-family: "Inter"; */
     font-weight: 500;
     line-height: 1;
     color: #ECECEC;
@@ -18,7 +17,6 @@
 
 .Footer-Heading-Text p {
     font-size: 12px;
-    /* font-family: "Inter"; */
     font-weight: 200;
     color: #ECECEC;
     line-height: 20.57px;
@@ -27,7 +25,6 @@
 
 .Footer-Second-Section p {
     font-size: 12px;
-    /* font-family: "Inter"; */
     font-weight: 200;
     color: #ECECEC;
     padding-top: 7px;
@@ -43,7 +40,6 @@
     font-size: 17px;
     font-weight: 200;
     line-height: 20.57px;
-    padding-left: 100px;
     font-family: "Inter";
 }
 
@@ -52,7 +48,6 @@
     font-size: 58px;
     font-weight: 500;
     color: #ECECEC;
-    padding-left: 100px;
     padding-top: 15px;
 }
 
@@ -62,19 +57,12 @@
     font-weight: 200;
     line-height: 27.84px;
     padding-top: 20px;
-    padding-left: 100px;
     cursor: pointer;
     font-family: "Inter";
 }
 
 .width1 {
     display: flex;
-    /* width: 41%; */
     align-items: center;
     justify-content: space-evenly;
 }
-
-
-/* .width2 {
-  width: 35%; 
-} */

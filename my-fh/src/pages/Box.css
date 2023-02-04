@@ -50,3 +50,9 @@
     color: #fff;
     text-align: center;
 }
+
+@media (max-width:425px) {
+    .container {
+        display: block;
+    }
+}

@@ -43,7 +43,6 @@
     justify-content: center;
     align-items: center;
     height: 496px;
-    flex-wrap: wrap;
     padding: 20px;
 }
 
@@ -52,18 +51,21 @@
     width: 100%;
 }
 
-.Section h1 {
+.Section .bannerHeading h1 {
     font-size: 96px;
     font-weight: 600;
+    text-align: left;
+    line-height: 1;
 }
 
-.Section h3 {
+.Section .bannerHeading h3 {
     font-size: 33px;
     font-weight: 600;
     color: #444444;
+    line-height: 1;
 }
 
-.Section p {
+.Section .bannerHeading p {
     font-size: 13px;
     font-weight: 300;
     max-width: 550px;
@@ -83,6 +85,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 20px;
 }
 
 .SecondH h3 {
@@ -134,3 +137,31 @@
 
 
 /* ------Class Group Banner------ */
+
+@media (max-width:1000px) {
+    .Section {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .banner {
+        height: auto;
+    }
+}
+
+@media (max-width:515px) {
+    .Section .bannerHeading h1 {
+        font-size: 60px;
+    }
+    .Section .bannerHeading h3 {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 390px) {
+    .Section .bannerHeading h1 {
+        font-size: 47px;
+    }
+    .Section .bannerHeading h3 {
+        font-size: 22px;
+    }
+}

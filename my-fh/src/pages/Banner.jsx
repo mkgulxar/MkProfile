@@ -9,7 +9,7 @@ const Banner = () => {
     <>
     <div className="banner">
       <div className="Section">
-        <div className="Heading">
+        <div className="bannerHeading">
           <h1>BRANDING</h1>
           <h3>unique and recognizable</h3>
           <p>
