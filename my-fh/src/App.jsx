@@ -9,12 +9,14 @@ import Footer from './pages/Footer'
 import Team from './pages/Team';
 
 
+
 import { Switch, Redirect, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
       <Header />
+   
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />

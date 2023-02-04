@@ -10,9 +10,9 @@ const Savetime = () => {
           <img src={saveimg} alt="" />
         </div>
         <div className="savetext">
-          <h2>SAVE TIME</h2>
+          <h4>SAVE TIME</h4>
           <h1>SAVE MONEY</h1>
-          <h2>do it your way.</h2>
+          <h4>do it your way.</h4>
           <p>the way to make a brand like a new generation</p>
           <div className="inputbtn">
           <input type="text" name="text" placeholder="share your email" />

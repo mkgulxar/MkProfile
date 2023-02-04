@@ -6,7 +6,7 @@ export const Section2 = () => {
   return (
     <>
       <div className="SecondH">
-        <h3>it is a world class group</h3>
+        <h2>it is a world class group</h2>
         <h4>which offers experience</h4>
         <p>
           equipment, and overall know-how of what is needed to build a business

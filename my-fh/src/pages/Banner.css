@@ -52,8 +52,6 @@
 }
 
 .Section .bannerHeading h1 {
-    font-size: 96px;
-    font-weight: 600;
     text-align: left;
     line-height: 1;
 }
@@ -66,8 +64,6 @@
 }
 
 .Section .bannerHeading p {
-    font-size: 13px;
-    font-weight: 300;
     max-width: 550px;
     line-height: 20px;
     padding-top: 25px;
@@ -88,10 +84,8 @@
     padding: 20px;
 }
 
-.SecondH h3 {
+.SecondH h2 {
     text-align: center;
-    font-weight: 500;
-    font-size: 26px;
     line-height: 39px;
     padding-top: 20px;
 }
@@ -145,23 +139,5 @@
     }
     .banner {
         height: auto;
-    }
-}
-
-@media (max-width:515px) {
-    .Section .bannerHeading h1 {
-        font-size: 60px;
-    }
-    .Section .bannerHeading h3 {
-        font-size: 27px;
-    }
-}
-
-@media (max-width: 390px) {
-    .Section .bannerHeading h1 {
-        font-size: 47px;
-    }
-    .Section .bannerHeading h3 {
-        font-size: 22px;
     }
 }

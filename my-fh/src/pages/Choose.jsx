@@ -5,7 +5,7 @@ const Choose = () => {
   return (
     <>
       <div className="choose">
-        <h1>Why Choose Us</h1>
+        <h3>Why Choose Us</h3>
         <p>
           When looking for a one stop Solution FH is the name to go for, you
           name it and we got the required services one is looking
@@ -38,7 +38,7 @@ const Choose = () => {
       </div>
      <div className="choose">
      <div className="choose-text">
-        <h2>Let's Build Something</h2>
+        <h3>Let's Build Something</h3>
         <div className="choose-btn">
           {/* <button>OUR TEAM</button> */}
         <a href="/team">OUR TEAM</a>
