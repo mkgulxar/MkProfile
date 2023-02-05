@@ -10,13 +10,15 @@ import Team from "./pages/Team";
 import Text from "./pages/Text";
 import image from "./pages/image";
 
+import Textform from "./pages/Textform";
+
 import { Switch, Redirect, Route } from "react-router-dom";
+
 
 function App() {
   return (
     <>
       <Header />
-
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
@@ -26,10 +28,12 @@ function App() {
         <Route exact path="/Team" component={Team} />
         <Route exact path="/Text" component={Text} />
         <Route exact path="/image" component={image} />
-
+        <Textform heading="Text Template"/>
         <Redirect to="/" />
       </Switch>
       <Footer />
+     
+      
     </>
   );
 }
