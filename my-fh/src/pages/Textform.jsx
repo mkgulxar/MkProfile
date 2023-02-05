@@ -11,9 +11,6 @@ export default function Textform(props) {
   //     setText(event.target.value);
   //   };
   //   const [text, setText] = useState("Enter text here");
-
-
-  
   const [data, setData] = useState(null);  
   const [print, setPrint] = useState(false);
   function getData(val) {
