@@ -10,7 +10,7 @@ import Team from "./pages/Team";
 import Text from "./pages/Text";
 import image from "./pages/image";
 
-import Textform from "./pages/Textform";
+// import Textform from "./pages/Textform";
 
 import { Switch, Redirect, Route } from "react-router-dom";
 
@@ -28,7 +28,7 @@ function App() {
         <Route exact path="/Team" component={Team} />
         <Route exact path="/Text" component={Text} />
         <Route exact path="/image" component={image} />
-        <Textform heading="Text Template"/>
+        {/* <Textform heading="Text Template"/> */}
         <Redirect to="/" />
       </Switch>
       <Footer />

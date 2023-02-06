@@ -42,3 +42,51 @@ p {
     font-size: 13px;
     font-weight: 400;
 }
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:425px) {
+    h1 {
+        font-size: 47px;
+    }
+    .Section .bannerHeading h3 {
+        font-size: 25px !important;
+    }
+    h4 {
+        font-size: 37px;
+    }
+    .savetext h1 {
+        font-size: 51px !important;
+    }
+    .savetext {
+        text-align: center;
+    }
+    .Section .bannerHeading {
+        text-align: center;
+    }
+}
+
+@media (max-width:375px) {
+    h2 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 32px;
+    }
+    .savetext h1 {
+        font-size: 47px !important;
+    }
+}
+
+@media (max-width:356px) {
+    .savetext h1 {
+        font-size: 35px !important;
+    }
+    .Section .bannerHeading h3 {
+        font-size: 20px !important;
+    }
+}
