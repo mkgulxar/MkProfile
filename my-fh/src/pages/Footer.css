@@ -22,12 +22,15 @@
         padding: 2px;
     }
     
+    .Footer-Second-Section {
+        margin-top: 23px;
+    }
+    
     .Footer-Second-Section p {
         font-size: 12px;
         font-weight: 200;
         color: #ECECEC;
         padding: 2px;
-        line-height: 1.2;
     }
     
     .width2 {
