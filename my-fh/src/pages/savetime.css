@@ -62,3 +62,12 @@
     margin-left: 5px;
     cursor: pointer;
 }
+
+@media (max-width:426px) {
+    .inputbtn {
+        flex-wrap: wrap;
+    }
+    .inputbtn button {
+        margin-top: 15px;
+    }
+}
