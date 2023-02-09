@@ -34,7 +34,6 @@ export const Email = () => {
 
   return (
     <div>
-  
       {model && (
         <form
           style={{
@@ -44,8 +43,7 @@ export const Email = () => {
             flexDirection: "column",
           }}
           ref={form}
-          onSubmit={sendEmail}
-        >
+          onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name="user_name" />
           <label>Email</label>

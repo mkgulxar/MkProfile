@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./savetime.css";
 import saveimg from "./Image/Bulbe Men.png";
-import { Email } from "./pages/Email";
+
+import emailjs from "@emailjs/browser";
+import { RxCrossCircled } from "react-icons/rx";
 
 
 
@@ -14,6 +16,30 @@ const Savetime = () => {
   const toggleModle = () => {
     setModel(!model);
   };
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_dasjhxa",
+        "template_vjw0roc",
+        form.current,
+        "7wG66B5lQGaY8iG2k"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message send");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <>
       <div className="Savecontainer">
@@ -26,8 +52,33 @@ const Savetime = () => {
           <h4>do it your way.</h4>
           <p>the way to make a brand like a new generation</p>
           <div className="inputbtn">
-          <button >share your details</button>
-          <Email/>
+          <button onClick={toggleModle} >share your details</button>
+           {model && (
+        <form
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            flexDirection: "column",
+           
+          }}
+          ref={form}
+          onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
+        </form>
+       
+      )}
+         {model && (
+       <button onClick={toggleModle}>
+        <RxCrossCircled/>
+      </button>
+         )}
           </div>
         </div>
         

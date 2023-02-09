@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/Service" component={Service} />
         <Route exact path="/Team" component={Team} />
         <Route exact path="/Text" component={Text} />
-        <Route exact path="/image" component={image} />{" "}
+        <Route exact path="/image" component={image} />
         <Route exact path="/Email" component={Email} />
         <Redirect to="/" />
       </Switch>
