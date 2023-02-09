@@ -15,7 +15,7 @@ const Savetime = () => {
           <h4>do it your way.</h4>
           <p>the way to make a brand like a new generation</p>
           <div className="inputbtn">
-          <input type="text" name="Email" placeholder="share your email" />
+          <input type="text" name="email" placeholder="share your email" />
           <button>SEND</button>
           </div>
         </div>

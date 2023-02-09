@@ -47,6 +47,9 @@ p {
     h1 {
         font-size: 60px;
     }
+    .Section .bannerHeading {
+        text-align: center;
+    }
 }
 
 @media (max-width:425px) {
@@ -63,9 +66,6 @@ p {
         font-size: 51px !important;
     }
     .savetext {
-        text-align: center;
-    }
-    .Section .bannerHeading {
         text-align: center;
     }
 }
