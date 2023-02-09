@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./savetime.css";
 import saveimg from "./Image/Bulbe Men.png";
+import { Email } from "./pages/Email";
+
+
+
+
+
 
 const Savetime = () => {
+  const [model, setModel] = useState(false);
+
+  const toggleModle = () => {
+    setModel(!model);
+  };
   return (
     <>
       <div className="Savecontainer">
@@ -15,8 +26,8 @@ const Savetime = () => {
           <h4>do it your way.</h4>
           <p>the way to make a brand like a new generation</p>
           <div className="inputbtn">
-          <input type="text" name="email" placeholder="share your email" />
-          <button>SEND</button>
+          <button >share your details</button>
+          <Email/>
           </div>
         </div>
         

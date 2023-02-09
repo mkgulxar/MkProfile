@@ -19,7 +19,7 @@ const About = () => {
             </p>
             <h2>WE BRING LIFE TO YOUR IDEAS AND DREAMS.</h2>
           </div>
-          <form action="">
+          <form className="form">
             <input type="text" name="email" placeholder="share your email" />
             <button>SEND</button>
           </form>

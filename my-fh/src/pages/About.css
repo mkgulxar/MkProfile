@@ -39,14 +39,14 @@
     height: 733px;
 }
 
-form {
+.form {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     /* height: 50px; */
 }
 
-form input {
+.form input {
     width: 100%;
     height: 47px;
     background: #FFFFFF;
@@ -60,7 +60,7 @@ form input {
     color: #C2C2C2;
 }
 
-form button {
+.form button {
     width: 118px;
     height: 47px;
     background: #6DC2FF;

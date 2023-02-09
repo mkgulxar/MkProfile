@@ -9,11 +9,11 @@ import Footer from "./pages/Footer";
 import Team from "./pages/Team";
 import Text from "./pages/Text";
 import image from "./pages/image";
+import { Email } from "./pages/Email";
 
 // import Textform from "./pages/Textform";
 
 import { Switch, Redirect, Route } from "react-router-dom";
-
 
 function App() {
   return (
@@ -27,13 +27,11 @@ function App() {
         <Route exact path="/Service" component={Service} />
         <Route exact path="/Team" component={Team} />
         <Route exact path="/Text" component={Text} />
-        <Route exact path="/image" component={image} />
-        {/* <Textform heading="Text Template"/> */}
+        <Route exact path="/image" component={image} />{" "}
+        <Route exact path="/Email" component={Email} />
         <Redirect to="/" />
       </Switch>
       <Footer />
-     
-      
     </>
   );
 }
