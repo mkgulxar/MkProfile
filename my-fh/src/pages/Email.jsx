@@ -33,7 +33,7 @@ export const Email = () => {
   };
 
   return (
-    <div>khj
+    <div>
       {model && (
         <form
           style={{
