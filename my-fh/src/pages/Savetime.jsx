@@ -1,14 +1,9 @@
 import React, { useRef, useState } from "react";
 import "./savetime.css";
 import saveimg from "./Image/Bulbe Men.png";
-
+import "./Email.css";
 import emailjs from "@emailjs/browser";
 import { RxCrossCircled } from "react-icons/rx";
-
-
-
-
-
 
 const Savetime = () => {
   const [model, setModel] = useState(false);
@@ -52,36 +47,46 @@ const Savetime = () => {
           <h4>do it your way.</h4>
           <p>the way to make a brand like a new generation</p>
           <div className="inputbtn">
-          <button onClick={toggleModle} >share your details</button>
-           {model && (
-        <form
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            flexDirection: "column",
-           
-          }}
-          ref={form}
-          onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
-        </form>
-       
-      )}
-         {model && (
-       <button onClick={toggleModle}>
-        <RxCrossCircled/>
-      </button>
-         )}
+            <button className="save-btn" onClick={toggleModle}>
+              share your details
+            </button>
+            {model && (
+              <div className="model">
+                <div className="overlay-2"></div>
+                <div className="model-content">
+                  <form ref={form} onSubmit={sendEmail} className="form-flex">
+                    <div className="name-flex">
+                      <div className="first">
+                        <label>First Name</label>
+                        <input type="text" name="user_name" />
+                      </div>
+                      <div className="first">
+                        <label>Last Name</label>
+                        <input type="text" name="user_name" />
+                      </div>
+                    </div>
+                    <div>
+                      <label>Company</label>
+                      <input type="text" name="user_name" />
+                    </div>
+                    <div>
+                      <label>Email</label>
+                      <input type="email" name="user_email" />
+                    </div>
+                    <div>
+                      <label>Message</label>
+                      <textarea name="message" />
+                    </div>
+                    <input type="submit" value="Submit" />
+                  </form>
+                  <button className="save-overlay-btn" onClick={toggleModle}>
+                    <RxCrossCircled />
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </div>
-        
       </div>
     </>
   );

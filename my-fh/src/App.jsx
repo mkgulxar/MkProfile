@@ -13,7 +13,7 @@ import { Email } from "./pages/Email";
 
 // import Textform from "./pages/Textform";
 
-import { Switch, Redirect, Route } from "react-router-dom";
+import { Switch, Redirect, Route } from 'react-router-dom'
 
 function App() {
   return (

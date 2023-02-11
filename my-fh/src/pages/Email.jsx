@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { RxCrossCircled } from "react-icons/rx";
 
+import "./Email.css";
+
 export const Email = () => {
   const [model, setModel] = useState(false);
 
@@ -34,28 +36,29 @@ export const Email = () => {
 
   return (
     <div>
+       <button onClick={toggleModle}>
+              <h5>Open</h5>
+            </button>
       {model && (
-        <form
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            flexDirection: "column",
-          }}
-          ref={form}
-          onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
-        </form>
+        <div className="model">
+          <div className="overlay-2"></div>
+          <div className="model-content">
+            <form ref={form} onSubmit={sendEmail}>
+              <label>Name</label>
+              <input type="text" name="user_name" />
+              <label>Email</label>
+              <input type="email" name="user_email" />
+              <label>Message</label>
+              <textarea name="message" />
+              <input type="submit" value="Submit" />
+            </form>
+
+            <button onClick={toggleModle}>
+              <RxCrossCircled />
+            </button>
+          </div>
+        </div>
       )}
-      <button onClick={toggleModle}>
-        <RxCrossCircled/>
-      </button>
     </div>
   );
 };
