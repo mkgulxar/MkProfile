@@ -65,19 +65,21 @@ const Savetime = () => {
                           <input type="text" name="user_name" />
                         </div>
                       </div>
-                      <div>
+                      <div className="company">
                         <label>Company</label>
                         <input type="text" name="user_name" />
                       </div>
-                      <div>
+                      <div className="email">
                         <label>Email</label>
                         <input type="email" name="user_email" />
                       </div>
-                      <div>
+                      <div className="message">
                         <label>Message</label>
                         <textarea name="message" />
                       </div>
+                      <div className="submit-btn">
                       <input type="submit" value="Submit" />
+                      </div>
                     </form>
                     <button className="save-overlay-btn" onClick={toggleModle}>
                       <RxCrossCircled />
