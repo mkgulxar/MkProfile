@@ -68,6 +68,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .first input {
@@ -83,9 +84,15 @@
     margin: 10px 0 10px 0;
 }
 
+.first {
+    width: 100%;
+}
+
 label {
     font-size: 15px;
     font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .company input {
