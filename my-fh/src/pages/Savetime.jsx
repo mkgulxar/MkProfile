@@ -82,11 +82,19 @@ const Savetime = () => {
                       </div>
                       <div>
                         <div className="save-service-input">
-                          <input type="radio" name="brand" value="Brand Strategy"  />
+                          <input
+                            type="radio"
+                            name="brand"
+                            value="Brand Strategy"
+                          />
                           <label>Brand Strategy</label>
                         </div>
                         <div className="save-service-input">
-                          <input type="radio" name="brand" value="Creative Content" />
+                          <input
+                            type="radio"
+                            name="brand"
+                            value="Creative Content"
+                          />
                           <label>Creative Content</label>
                         </div>
                         <div className="save-service-input">
@@ -94,8 +102,28 @@ const Savetime = () => {
                           <label>Production</label>
                         </div>
                         <div className="save-service-input">
-                          <input type="radio" name="brand" value="Brand Strategy" />
-                          <label>Brand Strategy</label>
+                          <input
+                            type="radio"
+                            name="brand"
+                            value="Social & Electronic Media"
+                          />
+                          <label>Social & Electronic Media</label>
+                        </div>
+                        <div className="save-service-input">
+                          <input
+                            type="radio"
+                            name="brand"
+                            value="Developement"
+                          />
+                          <label>Developement</label>
+                        </div>
+                        <div className="save-service-input">
+                          <input
+                            type="radio"
+                            name="brand"
+                            value="Outdoor Marketing"
+                          />
+                          <label>Outdoor Marketing</label>
                         </div>
                       </div>
                       <div className="submit-btn">

@@ -150,6 +150,7 @@ label {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 5px;
 }
 
 @media (max-width:768px) {

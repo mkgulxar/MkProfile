@@ -10,6 +10,7 @@ import Team from "./pages/Team";
 import Text from "./pages/Text";
 import image from "./pages/image";
 import { Email } from "./pages/Email";
+import SwiperSlider from "./pages/Swiper slider";
 
 // import Textform from "./pages/Textform";
 
@@ -29,6 +30,7 @@ function App() {
         <Route exact path="/Text" component={Text} />
         <Route exact path="/image" component={image} />
         <Route exact path="/Email" component={Email} />
+        <Route exact path="/Swiperslider" component={SwiperSlider} />
         <Redirect to="/" />
       </Switch>
       <Footer />
