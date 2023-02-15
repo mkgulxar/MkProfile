@@ -6,18 +6,6 @@
     font-family: 'Poppins', 'Inter';
 }
 
-
-/* body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, 'Inter';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-} */
-
 h1 {
     font-size: 96px;
     font-weight: 600;
@@ -43,12 +31,21 @@ p {
     font-weight: 400;
 }
 
+@media (max-width:1000px) {
+    .Section .bannerHeading {
+        text-align: center;
+    }
+}
+
 @media (max-width:768px) {
     h1 {
         font-size: 60px;
     }
-    .Section .bannerHeading {
-        text-align: center;
+}
+
+@media (max-width:458px) {
+    .Section .bannerHeading h3 {
+        font-size: 30px !important;
     }
 }
 

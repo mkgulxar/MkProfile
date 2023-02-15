@@ -78,10 +78,28 @@ const Savetime = () => {
                         <textarea name="message" />
                       </div>
                       <div className="service">
-                        <h1>Hello</h1>
+                        <h1>Services</h1>
+                      </div>
+                      <div>
+                        <div className="save-service-input">
+                          <input type="radio" name="brand" value="Brand Strategy"  />
+                          <label>Brand Strategy</label>
+                        </div>
+                        <div className="save-service-input">
+                          <input type="radio" name="brand" value="Creative Content" />
+                          <label>Creative Content</label>
+                        </div>
+                        <div className="save-service-input">
+                          <input type="radio" name="brand" value="Production" />
+                          <label>Production</label>
+                        </div>
+                        <div className="save-service-input">
+                          <input type="radio" name="brand" value="Brand Strategy" />
+                          <label>Brand Strategy</label>
+                        </div>
                       </div>
                       <div className="submit-btn">
-                      <input type="submit" value="Submit" />
+                        <input type="submit" value="Submit" />
                       </div>
                     </form>
                     <button className="save-overlay-btn" onClick={toggleModle}>
