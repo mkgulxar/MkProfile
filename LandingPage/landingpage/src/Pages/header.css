@@ -1,0 +1,38 @@
+.header-backgroung {
+    background: linear-gradient(to right, rgb(135, 37, 190)65%, rgb(166, 115, 143), rgb(231, 136, 27), transparent);
+    height: 50vh;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo h1 {
+    color: #ffa700;
+    font-size: 35px;
+}
+
+.navbar nav ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header-btn button {
+    padding: 15px 25px;
+    background: #efae37;
+    border: 2px solid #b2b1b1;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #5b5b5b;
+    font-weight: 600;
+}
