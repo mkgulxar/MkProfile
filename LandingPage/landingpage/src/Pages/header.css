@@ -1,12 +1,13 @@
 .header-backgroung {
-    background: linear-gradient(to right, rgb(135, 37, 190)65%, rgb(166, 115, 143), rgb(231, 136, 27), transparent);
-    height: 50vh;
+    background: linear-gradient(to right, rgba(137, 69, 242, 255)65%, rgba(173, 93, 177, 255), rgba(209, 123, 109, 255), transparent);
+    height: auto;
 }
 
 .header-flex {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 50px;
 }
 
 .logo h1 {

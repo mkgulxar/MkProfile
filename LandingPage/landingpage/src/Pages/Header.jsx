@@ -1,4 +1,6 @@
 import "./header.css";
+import Banner from "./Banner";
+
 
 function Header() {
   return (
@@ -30,6 +32,7 @@ function Header() {
             <button>Let's Talk</button>
           </div>
         </div>
+        <Banner/>
       </div>
     </>
   );
