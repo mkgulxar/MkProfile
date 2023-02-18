@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./Pages/Header"
+import Header from "./Pages/Header";
 import Home from "./Pages/Home";
 import Banner from "./Pages/Banner";
 import Slider from "./Pages/Slider";

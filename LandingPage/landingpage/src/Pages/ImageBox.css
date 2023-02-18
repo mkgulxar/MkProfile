@@ -1,0 +1,39 @@
+.box-image-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box-image-box {
+    width: auto;
+    height: auto;
+    background: #f9f1fe;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.box-image-text h2 {
+    padding-bottom: 10px;
+}
+
+.box-image-text p {
+    max-width: 426px;
+    padding-bottom: 10px;
+}
+
+.box-image-box {
+    padding-left: 20px;
+}
+
+.box-image-box h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.box-image-box p {
+    max-width: 200px;
+    padding-bottom: 20px;
+}
