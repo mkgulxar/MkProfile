@@ -11,8 +11,8 @@
 }
 
 .logo h1 {
-    color: #ffa700;
-    font-size: 35px;
+    color: var(--logo-color);
+    font-size: var(--logo-size);
 }
 
 .navbar nav ul li {
@@ -23,17 +23,18 @@
 
 .navbar nav ul li a {
     text-decoration: none;
-    color: rgb(48, 46, 46);
+    color: var(--list-color);
     font-weight: 500;
     font-size: 20px;
 }
 
-.header-btn button {
+
+/* .header-btn button {
     padding: 15px 25px;
-    background: #efae37;
+    background: var(--button-color);
     border: 2px solid #b2b1b1;
     border-radius: 10px;
     font-size: 17px;
     color: #5b5b5b;
     font-weight: 600;
-}
+} */
