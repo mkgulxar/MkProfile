@@ -9,6 +9,7 @@ import ImageBox from "./Pages/ImageBox";
 
 
 import { Switch, Redirect, Route } from 'react-router-dom'
+import Banner01 from "./Pages/Banner01";
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="Banner" component={Banner} />
         <Route exact path="Slider" component={Slider} />
         <Route exact path="ImageBox" component={ImageBox} />
+        <Route exact path="Banner01" component={Banner01} />
  
 
         <Redirect to="/" />
