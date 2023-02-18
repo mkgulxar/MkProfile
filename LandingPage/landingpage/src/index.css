@@ -21,6 +21,7 @@
      --shadow-color: #e8ccf7;
      --logo-size: 35px;
      --list-color: rgb(179, 179, 179);
+     --border-color: #EBD8F4;
  }
  
  h1 {
@@ -44,7 +45,7 @@
  }
  
  p {
-     font-size: 20px;
+     font-size: 17px;
      font-weight: 500;
  }
  

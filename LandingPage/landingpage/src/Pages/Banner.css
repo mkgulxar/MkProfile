@@ -9,28 +9,14 @@
     font-size: 70px;
     color: #fff;
     font-weight: 600;
-    /* max-width: 415px; */
     line-height: 1.2;
 }
 
 .banner01 .banner-text p {
     max-width: 469px;
-    font-size: 20px;
-    font-weight: 500;
-    color: #fff;
+    color: var(--ptext-color);
     padding: 30px 0;
 }
-
-
-/* .header-btn button {
-    padding: 15px 25px;
-    background: #efae37;
-    border: 2px solid #b2b1b1;
-    border-radius: 10px;
-    font-size: 17px;
-    color: #5b5b5b;
-    font-weight: 600;
-} */
 
 .video .icon {
     font-size: 40px;
@@ -44,9 +30,7 @@
 }
 
 .icon-text h3 {
-    color: #b2b1b1;
-    font-size: 25px;
-    font-weight: 500;
+    color: var(--ptext-color);
 }
 
 .explore-btn {

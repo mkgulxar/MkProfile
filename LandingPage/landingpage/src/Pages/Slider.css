@@ -1,13 +1,15 @@
 .best-slider-text h2 {
-    font-size: 37px;
-    color: #9027ee;
-    font-weight: 600;
+    color: var(--text2-color);
     padding: 5% 0 7% 0;
 }
 
 .box-background {
-    background: #944cde;
+    /* background: #ffd463; */
     padding: 50px;
+}
+
+.box-background:hover {
+    background: #ffd463;
 }
 
 .maxWidth {
@@ -19,6 +21,10 @@
     display: flex;
     align-items: center;
     text-align: center;
+    border-radius: 95px;
+    background: #944cde;
+    border: 20px solid var(--border-color);
+    outline: #fff;
 }
 
 .box-icons {
@@ -35,8 +41,6 @@
 }
 
 .box-text p {
-    font-size: 18px;
-    font-weight: 400;
     max-width: 218px;
-    color: #a3a1a1;
+    color: var(--ptext-color);
 }
