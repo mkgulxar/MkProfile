@@ -3,6 +3,7 @@ import Slider from "./Slider";
 import ImageBox from "./ImageBox";
 import Banner01 from "./Banner01";
 import HealthyMenu from "./HealthyMenu";
+import Aboutus from "./Aboutus";
 
 function Home() {
   return (
@@ -10,7 +11,8 @@ function Home() {
       <Slider />
       <ImageBox />
       <Banner01 />
-      <HealthyMenu/>
+      <HealthyMenu />
+      <Aboutus />
     </div>
   );
 }

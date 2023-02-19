@@ -11,6 +11,7 @@ import ImageBox from "./Pages/ImageBox";
 import { Switch, Redirect, Route } from 'react-router-dom'
 import Banner01 from "./Pages/Banner01";
 import HealthyMenu from "./Pages/HealthyMenu";
+import Aboutus from "./Pages/Aboutus";
 
 
 
@@ -25,6 +26,8 @@ function App() {
         <Route exact path="ImageBox" component={ImageBox} />
         <Route exact path="Banner01" component={Banner01} />
         <Route exact path="HealthyMenu" component={HealthyMenu} />
+        <Route exact path="Aboutus" component={Aboutus} />
+
  
 
         <Redirect to="/" />

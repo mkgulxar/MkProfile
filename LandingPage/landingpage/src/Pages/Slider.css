@@ -12,6 +12,14 @@
     background: #ffd463;
 }
 
+.box-radius-1 {
+    border-radius: 74px 0 0 74px;
+}
+
+.box-radius-2 {
+    border-radius: 0 74px 74px 0;
+}
+
 .maxWidth {
     max-width: 1272px;
     margin: auto;

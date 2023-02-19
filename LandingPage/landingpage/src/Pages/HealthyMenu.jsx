@@ -4,6 +4,8 @@ import { AiFillClockCircle } from "react-icons/ai";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import foodimg from "../images/Food-Pyramids-new-.png";
 
+
+
 function HealthyMenu() {
   return (
     <>
@@ -23,7 +25,7 @@ function HealthyMenu() {
             <AiFillClockCircle
               style={{
                 fontSize: "40px",
-                border: "1px solid #fff",
+                border: "3px solid rgb(167, 132, 202)",
                 color: "var(--text1-color)",
                 background: " #944cde",
                 borderRadius: "15px",
@@ -40,7 +42,7 @@ function HealthyMenu() {
             <AiFillClockCircle
               style={{
                 fontSize: "40px",
-                border: "1px solid #fff",
+                border: "3px solid rgb(167, 132, 202)",
                 color: "var(--text1-color)",
                 background: " #944cde",
                 borderRadius: "15px",
@@ -57,7 +59,7 @@ function HealthyMenu() {
             <AiFillClockCircle
               style={{
                 fontSize: "40px",
-                border: "1px solid #fff",
+                border: "3px solid rgb(167, 132, 202)",
                 color: "var(--text1-color)",
                 background: " #944cde",
                 borderRadius: "15px",
@@ -74,7 +76,7 @@ function HealthyMenu() {
             <AiFillClockCircle
               style={{
                 fontSize: "40px",
-                border: "1px solid #fff",
+                border: "3px solid rgb(167, 132, 202)",
                 color: "var(--text1-color)",
                 background: " #944cde",
                 borderRadius: "15px",
@@ -91,7 +93,7 @@ function HealthyMenu() {
             <AiFillClockCircle
               style={{
                 fontSize: "40px",
-                border: "1px solid #fff",
+                border: "3px solid rgb(167, 132, 202)",
                 color: "var(--text1-color)",
                 background: " #944cde",
                 borderRadius: "15px",

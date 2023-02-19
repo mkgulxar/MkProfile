@@ -1,0 +1,41 @@
+.aboutus-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aboutus-text h2 {
+    color: var(--text2-color);
+}
+
+.aboutus-text p {
+    color: var(--ptext-color);
+    max-width: 450px;
+    margin-bottom: 60px;
+}
+
+.about-box {
+    width: 570px;
+    height: 280px;
+    background: #f9f1fe;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.about-box p {
+    color: var(--ptext-color);
+}
+
+.about-box h5 {
+    color: var(--text2-color);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.about-box h6 {
+    color: var(--ptext-color);
+    font-size: 20px;
+    font-weight: 400;
+}

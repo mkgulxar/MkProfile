@@ -7,7 +7,7 @@ function Banner01() {
     <>
       <div className="banner01bg">
         <div>
-          <RiFlagFill style={{fontSize:"45px" ,border:"1px solid #fff",color: "var(--logo-color)",background:" #944cde",borderRadius:"15px",padding:"10px",marginBottom:"20px" }} />
+          <RiFlagFill style={{fontSize:"45px" ,border:"3px solid rgb(167, 132, 202)",color: "var(--logo-color)",background:" #944cde",borderRadius:"15px",padding:"10px",marginBottom:"20px" }} />
         </div>
         <div className="banner01-text">
           <h2>
