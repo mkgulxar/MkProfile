@@ -20,19 +20,19 @@ function ImageBox() {
           </div>
          <div style={{display:"flex",alignItems:"center",justifyContent:"center",maxWidth:"540px",flexWrap:"wrap",gap:"30px"}}>
          <div className="box-image-box">
-            <AiFillHeart style={{fontSize:"45px" ,border:"1px solid #fff",color: "#fff",background:" #944cde",borderRadius:"8px" }}   />
+            <AiFillHeart style={{fontSize:"45px" ,border:"1px solid #fff",color: "#fff",background:" #944cde",borderRadius:"8px",padding:"10px" }}   />
             <h5>becomes healthier</h5>
             <p>immune will stronger if the body is healthier</p>
           </div> <div className="box-image-box">
-            <AiFillHeart style={{fontSize:"45px" ,border:"1px solid #fff",color: "#fff",background:" #944cde",borderRadius:"8px" }} />
+            <AiFillHeart style={{fontSize:"45px" ,border:"1px solid #fff",color: "#fff",background:" #944cde",borderRadius:"8px",padding:"10px" }} />
             <h5>becomes healthier</h5>
             <p>immune will stronger if the body is healthier</p>
           </div> <div className="box-image-box">
-            <AiFillHeart style={{fontSize:"45px" ,border:"1px solid #fff",color: "#fff",background:" #944cde",borderRadius:"8px" }} />
+            <AiFillHeart style={{fontSize:"45px" ,border:"1px solid #fff",color: "#fff",background:" #944cde",borderRadius:"8px",padding:"10px" }} />
             <h5>becomes healthier</h5>
             <p>immune will stronger if the body is healthier</p>
           </div> <div className="box-image-box">
-            <AiFillHeart style={{fontSize:"45px" ,border:"1px solid #fff",color: "#fff",background:" #944cde",borderRadius:"8px" }} />
+            <AiFillHeart style={{fontSize:"45px" ,border:"1px solid #fff",color: "#fff",background:" #944cde",borderRadius:"8px",padding:"10px" }} />
             <h5>becomes healthier</h5>
             <p>immune will stronger if the body is healthier</p>
           </div>

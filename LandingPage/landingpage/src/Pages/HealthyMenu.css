@@ -1,0 +1,89 @@
+.healthy-menu-text h2 {
+    color: var(--text2-color);
+}
+
+.healthy-menu-text p {
+    color: var(--ptext-color);
+    max-width: 450px;
+    padding-bottom: 30px;
+}
+
+.healthy-menu-box {
+    width: 360px;
+    height: 98px;
+    background: #f9f1fe;
+    border-radius: 30px;
+    border: 2px solid #fff;
+}
+
+.healthy-text h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.healthy-img-text-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.healthy-red-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.healthy-img-flex {
+    background: #f9f1fe;
+    width: 250px;
+    border-radius: 50px 50px 0 0;
+    height: auto;
+}
+
+.healthy-image {
+    display: flex;
+    justify-content: center;
+}
+
+.healthy-image img {
+    width: 200px;
+    height: 200px;
+    background: #B4C3FF;
+    border: 10px solid #fff;
+    border-radius: 50px 50px 0 0;
+    margin-top: 20px;
+}
+
+.healthy-img-text {
+    text-align: center;
+}
+
+.healthy-img-text h5 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.healthy-btn {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.healthy-btn button {
+    padding: 10px 20px;
+    background: var(--button-hover-color);
+    border: 2px solid #b2b1b1;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #5b5b5b;
+    font-weight: 600;
+}

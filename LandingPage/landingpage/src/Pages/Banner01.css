@@ -1,9 +1,25 @@
 .banner01bg {
     background: var(--background-color);
-    width: 900px;
-    height: 350px;
+    width: 1270px;
+    height: 570px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border: 20px solid #000;
+    border-radius: 100px;
+    outline: #781919;
+    margin: auto;
+    text-align: center;
+}
+
+.banner01-text h2 {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.banner01-text p {
+    max-width: 450px;
+    padding-bottom: 70px;
+    color: var(--ptext-color);
 }
