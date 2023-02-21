@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-fh/static/css/main.e65385eb.css",
+    "main.js": "/my-fh/static/js/main.6d7a8f9c.js",
+    "static/js/787.03e8d67d.chunk.js": "/my-fh/static/js/787.03e8d67d.chunk.js",
+    "static/media/OurTeam.png": "/my-fh/static/media/OurTeam.670827d0498c6cef2087.png",
+    "static/media/team.png": "/my-fh/static/media/team.f36a319ca3ff7d4830b8.png",
+    "static/media/laptop-men.png": "/my-fh/static/media/laptop-men.ce80a5db1af5ec524afd.png",
+    "static/media/social.png": "/my-fh/static/media/social.eaf4dff106fe3411e37a.png",
+    "static/media/Nimra.png": "/my-fh/static/media/Nimra.6615fb5e5a64bd7851e1.png",
+    "static/media/Ali-Haider.png": "/my-fh/static/media/Ali-Haider.af432b8bb30313c4bb07.png",
+    "static/media/Mk.png": "/my-fh/static/media/Mk.5a5a024f85a870c5c954.png",
+    "static/media/Zulabia.png": "/my-fh/static/media/Zulabia.fd002ae1f50c7cb6bfbe.png",
+    "static/media/image.png": "/my-fh/static/media/image.962ed7de810b764dd9c9.png",
+    "static/media/location.png": "/my-fh/static/media/location.2870328c22177942eed1.png",
+    "static/media/Bulbe Men.png": "/my-fh/static/media/Bulbe Men.59c9f4dee76679f1478f.png",
+    "static/media/FH-logo.png": "/my-fh/static/media/FH-logo.1029d99372d46f9a4f23.png",
+    "index.html": "/my-fh/index.html",
+    "main.e65385eb.css.map": "/my-fh/static/css/main.e65385eb.css.map",
+    "main.6d7a8f9c.js.map": "/my-fh/static/js/main.6d7a8f9c.js.map",
+    "787.03e8d67d.chunk.js.map": "/my-fh/static/js/787.03e8d67d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e65385eb.css",
+    "static/js/main.6d7a8f9c.js"
+  ]
+}
