@@ -17,17 +17,20 @@
 }
 
 .about-box {
-    width: 570px;
+    width: auto;
     height: 280px;
     background: #f9f1fe;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 0 30px;
+    margin: 0 10px;
+    border-radius: 8px;
 }
 
 .about-box p {
     color: var(--ptext-color);
+    max-width: 564px;
 }
 
 .about-box h5 {

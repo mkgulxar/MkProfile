@@ -19,7 +19,7 @@ function HealthyMenu() {
         </p>
       </div>
       
-      <Scrollbars style={{ width: 500, height: 355 }}>
+      <Scrollbars style={{ width: 450, height: 355 }}>
         <div className="healthy-menu-box menu-flex">
           <div className="healthy-icons">
             <AiFillClockCircle

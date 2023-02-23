@@ -20,19 +20,19 @@ function ImageBox() {
           </div>
          <div style={{display:"flex",alignItems:"center",justifyContent:"center",maxWidth:"540px",flexWrap:"wrap",gap:"30px"}}>
          <div className="box-image-box">
-            <AiFillHeart style={{fontSize:"45px" ,border:"3px solid rgb(167, 132, 202)",color: "#fff",background:" #944cde",borderRadius:"15px",padding:"5px" }}   />
+            <AiFillHeart style={{fontSize:"45px" ,border:"3px solid rgb(167, 132, 202)",color: "#fff",background:" #944cde",borderRadius:"15px",padding:"5px",transform:"translateY(-18px)" }}   />
             <h5>becomes healthier</h5>
             <p>immune will stronger if the body is healthier</p>
           </div> <div className="box-image-box">
-            <AiFillHeart style={{fontSize:"45px" ,border:"3px solid rgb(167, 132, 202)",color: "#fff",background:" #944cde",borderRadius:"15px",padding:"5px" }} />
+            <AiFillHeart style={{fontSize:"45px" ,border:"3px solid rgb(167, 132, 202)",color: "#fff",background:" #944cde",borderRadius:"15px",padding:"5px",transform:"translateY(-18px)" }} />
             <h5>becomes healthier</h5>
             <p>immune will stronger if the body is healthier</p>
           </div> <div className="box-image-box">
-            <AiFillHeart style={{fontSize:"45px" ,border:"3px solid rgb(167, 132, 202)",color: "#fff",background:" #944cde",borderRadius:"15px",padding:"5px" }} />
+            <AiFillHeart style={{fontSize:"45px" ,border:"3px solid rgb(167, 132, 202)",color: "#fff",background:" #944cde",borderRadius:"15px",padding:"5px",transform:"translateY(-18px)" }} />
             <h5>becomes healthier</h5>
             <p>immune will stronger if the body is healthier</p>
           </div> <div className="box-image-box">
-            <AiFillHeart style={{fontSize:"45px" ,border:"3px solid rgb(167, 132, 202)",color: "#fff",background:" #944cde",borderRadius:"15px",padding:"5px" }} />
+            <AiFillHeart style={{fontSize:"45px" ,border:"3px solid rgb(167, 132, 202)",color: "#fff",background:" #944cde",borderRadius:"15px",padding:"5px",transform:"translateY(-18px)" }} />
             <h5>becomes healthier</h5>
             <p>immune will stronger if the body is healthier</p>
           </div>

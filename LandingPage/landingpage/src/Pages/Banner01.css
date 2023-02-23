@@ -1,6 +1,6 @@
 .banner01bg {
     background: var(--background-color);
-    width: 1270px;
+    max-width: 1270px;
     height: 570px;
     display: flex;
     align-items: center;
@@ -11,6 +11,8 @@
     outline: #781919;
     margin: auto;
     text-align: center;
+    /* width: 100%; */
+    margin: 10px auto;
 }
 
 .banner01-text h2 {

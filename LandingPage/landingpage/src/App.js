@@ -4,14 +4,16 @@ import Home from "./Pages/Home";
 import Banner from "./Pages/Banner";
 import Slider from "./Pages/Slider";
 import ImageBox from "./Pages/ImageBox";
+import Banner01 from "./Pages/Banner01";
+import HealthyMenu from "./Pages/HealthyMenu";
+import Aboutus from "./Pages/Aboutus";
+import Footer from "./Pages/Footer";
 
 
 
 
 import { Switch, Redirect, Route } from 'react-router-dom'
-import Banner01 from "./Pages/Banner01";
-import HealthyMenu from "./Pages/HealthyMenu";
-import Aboutus from "./Pages/Aboutus";
+
 
 
 
@@ -32,7 +34,7 @@ function App() {
 
         <Redirect to="/" />
       </Switch>
-      
+      <Footer/>
     </>
   );
 }
