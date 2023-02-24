@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banner.css";
 import {IoMdArrowDropright } from "react-icons/io";
-import img01 from '../images/girl-image.png'
+import img01 from '../images/image-1.png'
 
 function Banner() {
   return (
